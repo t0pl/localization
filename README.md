@@ -10,4 +10,4 @@ Thank you very much.
 
 Contributors
 -------------------------
-- LR
+- LR (Chinese translator)
