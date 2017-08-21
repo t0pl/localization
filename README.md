@@ -8,14 +8,5 @@ Thank you very much.
 
 
 
-QPython's language resources
------
-
-
-QPython3's language resources
------
-
-
-QPy's common libraries' language resources
------
-There are the dependencies libraries that qpython/qpython3 need.
+Contributors
+-------------------------
