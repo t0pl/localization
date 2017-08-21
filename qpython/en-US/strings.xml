@@ -1,0 +1,761 @@
+<resources>
+
+    <string name="private1_version" translatable="false">1347438520.05</string>
+    <string name="private2_version" translatable="false">1347438543.05</string>
+    <string name="private3_version" translatable="false">1347438520.05</string>
+
+    <string name="app_name">QPython</string>
+    <string name="nav_header_name" translatable="false">QPython</string>
+    <string name="nav_header_link" translatable="false">www.qpython.org</string>
+    <string name="terminal">Terminal</string>
+    <string name="library">Library</string>
+    <string name="club">Club</string>
+    <string name="recent">Recent</string>
+    <string name="script">Script</string>
+    <string name="project">Project</string>
+    <string name="document">Document</string>
+    <string name="forum">Forum</string>
+    <string name="wiki" translatable="false">Wiki</string>
+    <string name="read_from_QR">Read code from QRcode</string>
+    <string name="back_app">Press again to exit</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="setting">Setting</string>
+    <string name="console">Console</string>
+    <string name="editor">Editor</string>
+    <string name="program">Program</string>
+    <string name="community">Community</string>
+    <string name="library_manager">Library Manager</string>
+
+    <string name="setting_about">about</string>
+    <string name="setting_update">Check for new version</string>
+    <string name="setting_mark">Rate it!</string>
+    <string name="setting_back">Feedback</string>
+    <string name="setting_about_all">Correlation</string>
+    <string name="more">More</string>
+    <string name="lib_manager">Manage Library</string>
+    <string name="sl4a_server">SL4A Server</string>
+    <string name="normal_program">Default APP</string>
+    <string name="qpypi" translatable="false">QPypi</string>
+    <string name="qpypi_up" translatable="false">QPYPI</string>
+    <string name="internal_space">Reset storage</string>
+    <string name="ftp_server">FTP Server</string>
+
+
+    <!---->
+    <string name="application_terminal">Terminal</string>
+    <string name="preferences">Preference</string>
+    <string name="new_window">Open new window</string>
+    <string name="close_window">Close window</string>
+    <string name="window_list">Window list</string>
+    <string name="prev_window">Prev window</string>
+    <string name="next_window">Next window</string>
+    <string name="reset">Reset Terminal</string>
+    <string name="send_email">Send mail to…</string>
+    <string name="special_keys">Special keys</string>
+    <string name="toggle_soft_keyboard">Open/Close soft keyboard</string>
+
+    <string name="reset_toast_notification">The state at present will be reset.</string>
+
+    <string name="enable_wakelock">Enable wakelock</string>
+    <string name="disable_wakelock">Disable wakelock</string>
+    <string name="enable_wifilock">Enable WIFI lock</string>
+    <string name="disable_wifilock">Disable WIFI lock</string>
+
+    <string name="edit_text">Edit text</string>
+    <string name="select_text">Select text</string>
+    <string name="copy_all">Copy all</string>
+    <string name="send_control_key">Send control key</string>
+    <string name="send_fn_key">Send Fn key</string>
+
+    <string name="window_title">Window %1$d</string>
+
+    <string name="service_notify_text">Session is running</string>
+
+    <string name="process_exit_message">Session is over</string>
+
+    <!-- Preference dialog -->
+    <string name="screen_preferences">Screen</string>
+
+    <string name="title_statusbar_preference">Status bar</string>
+    <string name="summary_statusbar_preference">Show/Hide Status bar</string>
+    <string name="dialog_title_statusbar_preference">Status bar</string>
+
+    <string name="title_actionbar_preference">Action Bar</string>
+    <string name="summary_actionbar_preference">Choose Action bar\'s behavior(Android 3.0 and above)</string>
+    <string name="dialog_title_actionbar_preference">Action bar\'s behavior</string>
+
+    <string name="title_orientation_preference">Screen orientation</string>
+    <string name="summary_orientation_preference">Choose screen orientation action</string>
+    <string name="dialog_title_orientation_preference">screen orientation action</string>
+
+    <string name="title_cursorstyle_preference">Cursor style</string>
+    <string name="summary_cursorstyle_preference">Choose cursor style</string>
+    <string name="dialog_title_cursorstyle_preference">Cursor style</string>
+
+    <string name="title_cursorblink_preference">Cursor blink</string>
+    <string name="summary_cursorblink_preference">Choose blink style</string>
+    <string name="dialog_title_cursorblink_preference">Cursor blink</string>
+
+    <string name="text_preferences">Text</string>
+
+    <string name="title_utf8_by_default_preference">Default use UTF-8</string>
+    <string name="summary_utf8_by_default_preference">Using UTF-8 as default</string>
+
+    <string name="title_fontsize_preference">Text size</string>
+    <string name="summary_fontsize_preference">Choose text size</string>
+    <string name="dialog_title_fontsize_preference">Text size</string>
+
+    <string name="title_color_preference">Text color</string>
+    <string name="summary_color_preference">Choose text color</string>
+    <string name="dialog_title_color_preference">Text color</string>
+
+    <string name="keyboard_preferences">Keyboard</string>
+
+    <string name="title_backaction_preference">Back key behavior</string>
+    <string name="summary_backaction_preference">Choose Back key behavior</string>
+    <string name="dialog_title_backaction_preference">Back key behavior</string>
+
+    <string name="title_controlkey_preference">Ctrl key</string>
+    <string name="summary_controlkey_preference">Choose Ctrl key behavior</string>
+    <string name="dialog_title_controlkey_preference">Ctrl key</string>
+
+    <string name="title_fnkey_preference">Fn key</string>
+    <string name="summary_fnkey_preference">Choose Fn key behavior</string>
+    <string name="dialog_title_fnkey_preference">Fn key</string>
+
+    <string name="title_ime_preference">Input method</string>
+    <string name="summary_ime_preference">Choose input method</string>
+    <string name="dialog_title_ime_preference">Input method</string>
+
+    <string name="shell_preferences">Shell</string>
+    <string name="title_shell_preference">Terminal</string>
+    <string name="summary_shell_preference">Choose Shell</string>
+    <string name="dialog_title_shell_preference">Shell</string>
+
+    <string name="title_initialcommand_preference">Initial command</string>
+    <string name="summary_initialcommand_preference">Automatic performance initial command when start</string>
+    <string name="dialog_title_initialcommand_preference">Initial command</string>
+
+    <string name="title_termtype_preference">Terminal type</string>
+    <string name="summary_termtype_preference">Set Shell\'s Terminal type</string>
+    <string name="dialog_title_termtype_preference">Terminal type</string>
+
+    <string name="title_close_window_on_process_exit_preference">Close window when exit</string>
+    <string name="summary_close_window_on_process_exit_preference">Close window when exit</string>
+
+    <string name="title_verify_path_preference">verify PATH</string>
+    <string name="summary_verify_path_preference">Clear invalid PATH</string>
+
+    <string name="title_do_path_extensions_preference">Allow PATH expand</string>
+    <string name="summary_do_path_extensions_preference">Allow add command to PATH</string>
+
+    <string name="title_allow_prepend_path_preference">Allow preposition PATH</string>
+    <string name="summary_allow_prepend_path_preference">Allow override exist command in PATH</string>
+
+    <string name="title_home_path_preference">HOME Folder</string>
+    <string name="summary_home_path_preference">Use as HOME\'s writable path</string>
+
+    <string name="control_key_dialog_title">Ctrl and Fn key</string>
+    <string name="control_key_dialog_control_text">CTRLKEY Space : Control-@ (NUL)\nCTRLKEY A..Z : Control-A..Z\nCTRLKEY 5 : Control-]\nCTRLKEY 6 : Control-^\nCTRLKEY 7 : Control-_\nCTRLKEY 9 : F11\nCTRLKEY 0 : F12</string>
+    <string name="control_key_dialog_control_disabled_text">Ctrl key unset</string>
+    <string name="control_key_dialog_fn_text">FNKEY 1..9 : F1-F9\nFNKEY 0 : F10\nFNKEY W : Up\nFNKEY A : Left\nFNKEY S : Down\nFNKEY D : Right\nFNKEY P : PageUp\nFNKEY N : PageDown\nFNKEY T : Tab\nFNKEY L : | (pipe)\nFNKEY U : _ (underscore)\nFNKEY E : Control-[ (ESC)\nFNKEY X : Delete\nFNKEY I : Insert\nFNKEY H : Home\nFNKEY F : End\nFNKEY . : Control-\\\n</string>
+    <string name="control_key_dialog_fn_disabled_text">Fn key unset</string>
+
+    <string name="confirm_window_close_message">Close window?</string>
+
+    <string name="perm_run_script">Run command on Terminal</string>
+    <string name="permdesc_run_script">Allow app open new window and run all command about internet/storage</string>
+    <string name="perm_append_to_path">Add command to Terminal</string>
+    <string name="permdesc_append_to_path">Allow APP add addiction command</string>
+    <string name="perm_prepend_to_path">Override exist command on Terminal</string>
+    <string name="permdesc_prepend_to_path">Allow override exist command on Terminal</string>
+
+    <string name="email_transcript_subject">Terminal\'s copy</string>
+    <string name="feedback_email_subject">Feedback - QPython</string>
+    <string name="email_transcript_chooser_title">Send Terminal\'s copy to…</string>
+    <string name="email_transcript_no_email_activity_found">Can not find propriety App to send E-mail</string>
+
+    <string name="alt_sends_esc">Use Alt as ESC</string>
+    <string name="alt_sends_esc_summary_on">Using Alt as ESC</string>
+    <string name="alt_sends_esc_summary_off">Cancel using Alt as ESC</string>
+
+    <string name="title_mouse_tracking_preference">Send mouse event</string>
+    <string name="summary_mouse_tracking_preference">Are touch and scroll event ignored?</string>
+
+    <string name="dialog_title_menu">Menu</string>
+    <string name="dialog_item_qrcode">Scan QRCode</string>
+    <string name="dialog_item_script">Run script</string>
+    <string name="dialog_item_project">Run project</string>
+
+    <string name="dialog_title_script">script</string>
+    <string name="dialog_title_project">project</string>
+
+
+    <string name="title_use_keyboard_shortcuts">Use Keyboard Shortcuts</string>
+    <string name="use_keyboard_shortcuts_summary_on">Ctrl-Tab: cycle window, Ctrl-Shift-N: new window, Ctrl-Shift-V: paste.</string>
+    <string name="use_keyboard_shortcuts_summary_off">Keyboard shortcuts disabled.</string>
+    <string name="help">Help</string>
+    <string name="activity_term_here_title">Term here</string>
+    <!-- BEGIN SHORTCUT RELATED STRINGS -->
+    <!-- AndroidManifest.xml -->
+    <string name="activity_shortcut_create">"Term shortcut"</string>
+    <string name="addshortcut_button_find_command">Find command</string>
+    <string name="addshortcut_command_hint">command</string>
+    <string name="addshortcut_example_hint">--example=\""a\"</string>
+    <string name="addshortcut_navigator_title">SELECT SHORTCUT TARGET</string>
+    <string name="addshortcut_command_window_instructions">Command window requires full mPath, no arguments. For other commands use Arguments window (ex: cd /sdcard).</string>
+    <string name="addshortcut_arguments_label">Add to dictionary</string>
+    <string name="addshortcut_shortcut_label">Shortcut label\:</string>
+    <string name="addshortcut_button_text_icon">Text icon</string>
+    <string name="addshortcut_make_text_icon">MAKE TEXT ICON</string>
+    <string name="addshortcut_text_icon_instructions"></string>
+    <string name="addshortcut_title">Term shortcut</string>
+    <!-- FSNavigator.java -->
+    <string name="fsnavigator_title">FILE SELECTOR</string>
+    <string name="fsnavigator_no_external_storage">External storage not available</string>
+    <string name="fsnavigator_optional_enter_path">Or enter mPath here.</string>
+    <string name="fsnavigator_change_theme">Change theme</string>
+    <!-- ColorValue.java -->
+    <string name="colorvalue_letter_alpha">α</string>
+    <string name="colorvalue_letter_red">R</string>
+    <string name="colorvalue_letter_green">G</string>
+    <string name="colorvalue_letter_blue">B</string>
+    <string name="colorvalue_label_lock_button_column">LOCK</string>
+    <string name="colorvalue_icon_text_entry_hint">Enter icon text</string>
+
+    <string name="help_url">http://www.qpython.org</string>
+
+    <string name="new_file">New file</string>
+    <string name="redo">Redo</string>
+    <string name="save_all">Save all</string>
+    <string name="recent_files">Recent file</string>
+    <string name="line_separator">line separator</string>
+    <string name="select_all">Select all</string>
+    <string name="duplication_line">Duplication line</string>
+    <string name="find_in_files">Find in files</string>
+    <string name="jump_to_start">Jump to start</string>
+    <string name="jump_to_end">Jump to end</string>
+    <string name="goto_line">Goto line</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="document_info">Document info</string>
+    <string name="symbol">Symbol</string>
+    <string name="insert_color">Insert color</string>
+    <string name="highlight_language">highlight syntax</string>
+    <string name="encoding">Encoding</string>
+    <string name="read_only">Read only</string>
+    <string name="insert_datetime">Insert time</string>
+    <string name="edit_mode">Edit mode</string>
+    <string name="run">Run</string>
+    <string name="file">Explorer</string>
+    <string name="other">Other</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="new_filename">Untitled %d</string>
+    <string name="confirm_save_msg">Document %s is not saved，do you want to save before quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cannt_access_file">File %s can not access</string>
+    <string name="cannt_read_file">Can not read file: %s</string>
+    <string name="ok">OK</string>
+    <string name="read_file_exception">Exception occur when read file</string>
+    <string name="init_syntax_msg">Initialling syntax highlight…</string>
+    <string name="init_syntax_error">Initialling syntax file error,please check if storage space is big enough.</string>
+    <string name="init_build_index_error">Indexing fail</string>
+    <string name="close">close</string>
+    <string name="convert_wrap_char">Covert tab</string>
+    <string name="path_x">Path：%s</string>
+    <string name="char_x">Char count：%d</string>
+    <string name="word_x">Word count：%d</string>
+    <string name="line_number_x">Line count：%d</string>
+    <string name="encoding_x">Encoding：%s</string>
+    <string name="tab">Tab</string>
+    <string name="no_change">No change</string>
+    <string name="save_success">Save success</string>
+    <string name="find_label">Find What:</string>
+    <string name="replace_label">Replace With:</string>
+    <string name="case_sensitive">Case sensitive</string>
+    <string name="whole_words_only">Whole words only</string>
+    <string name="regex">Regular expression</string>
+    <string name="in_path">In Path:</string>
+    <string name="recursively">Recursively</string>
+    <string name="cannot_be_empty">can not be null</string>
+    <string name="path_not_exists">Path did not exists</string>
+    <string name="find_not_found">Can not find match result</string>
+    <string name="previous_occurrence">Find prev</string>
+    <string name="next_occurrence">Find next</string>
+    <string name="replace_all">Replace all</string>
+    <string name="searching">Searching…</string>
+    <string name="select_lang_to_highlight">Select a language to highlight</string>
+    <string name="more_menu">More menu</string>
+    <string name="reopen_with_encoding">Reopen by this encode</string>
+    <string name="save_as_file_first">Please save as file first</string>
+    <string name="document_changed">File already changed</string>
+    <string name="give_up_document_changed_message">File already change, reopen will clear the changes.</string>
+    <string name="preview_in_browser">Preview in browser</string>
+    <string name="use_sl4a_in_background_run_script">Using SL4A to run script in background</string>
+    <string name="use_sl4a_in_terminal_run_script">Using SL4A to run script in terminal</string>
+    <string name="please_save_as_file_first">Please save as file first</string>
+    <string name="run_fail_message">Link to another APP fail</string>
+    <string name="settings">Setting</string>
+    <string name="font">Font</string>
+    <string name="default_value">Default value</string>
+    <string name="font_size">Font size</string>
+    <string name="cursor_width">Cursor width</string>
+    <string name="touch_to_adjust_text_size">Touch to adjust text size</string>
+    <string name="word_wrap_in_editor">Wraps automatically</string>
+    <string name="show_linenumber">Show line number</string>
+    <string name="show_whitespace">Show whitespace</string>
+    <string name="auto_indent">Indent automatically</string>
+    <string name="insert_space_for_tab">Using space for tab</string>
+    <string name="indent_size">Indent size</string>
+    <string name="highlight_and_theme">Highlight and theme</string>
+    <string name="highlight_the_file_size_limit">Setting limit of highlight file\'s size</string>
+    <string name="select_theme">Select theme</string>
+    <string name="auto_save">Save file automatically</string>
+    <string name="remember_last_opened_files">Remember the last opened file</string>
+    <string name="remember_last_opened_files_summary">Opening the last file automatically when start up</string>
+    <string name="screen_orientation">Screen orientation</string>
+    <string name="keep_screen_on">Keep screen on</string>
+    <string name="auto_capitalize">Capitalize automatically</string>
+    <string name="feedback">Feedback</string>
+    <string name="donate">Donate</string>
+    <string name="help_translate">Help us to translate</string>
+    <string name="about">About</string>
+    <string name="enable_highlight">Enable syntax highlight</string>
+    <string name="version_x">Version：%s</string>
+    <string name="need_to_enable_read_storage_permissions">Internal Storage permission is needed</string>
+    <string name="file_not_exists">File did not exist</string>
+    <string name="cannt_handle_intent_x">Can not handle the intent：%s</string>
+    <string name="handle_intent_x_error">Error happen when handle：%s </string>
+    <string name="hex_color_char">#</string>
+    <string name="color_R">R:</string>
+    <string name="color_G">G:</string>
+    <string name="color_B">B:</string>
+    <string name="verify_sign_failure">You are using an unofficial App, please go to https://github.com/jecelyin/920-text-editor-v2/releases to reinstall the official version</string>
+    <string name="press_again_will_exit">Press back again to exit</string>
+    <string name="find_replace">Find/Replace</string>
+    <string name="find_title">\"%s\" Find Results</string>
+    <string name="zero_matches">0 matches</string>
+    <string name="chooser_browser">Choose a browser</string>
+    <string name="find_or_replace">Find/Replace…</string>
+    <string name="other_application">Other App…</string>
+    <string name="chooser_application">Choose App</string>
+    <string name="editor_create_unknown_exception">Unknown error happen when open new editor</string>
+    <string name="convert_to_uppercase">Convert to uppercase</string>
+    <string name="convert_to_lowercase">Convert to lowercase</string>
+    <string name="duplication_text">Duplication text</string>
+    <string name="tab_size">Tab size</string>
+    <string name="new_version_available">New version available</string>
+    <string name="install">Install</string>
+    <string name="new_version_update_content">Latest Version: %1$s\n\nWhat\'s New:\n%2$s</string>
+    <string name="download_progress">Downloading：%1$d%%</string>
+    <string name="download_failure_x">Download fail：%s</string>
+    <string name="start_download">Download started</string>
+    <string name="auto_check_updates">Check update automatically</string>
+    <string name="cannt_download">Can not download</string>
+    <string name="readonly_mode_not_support_this_action">Read-only mode does not support this action</string>
+    <string name="x_text_replaced">%d text has been replaced</string>
+    <string name="enable_root">Enable root</string>
+    <!--<string name="my_name">作者：彭春瑜</string>-->
+    <string name="my_email"><![CDATA[Email：<a href="mailto:jecelyin@gmail.com">jecelyin@gmail.com</a>]]></string>
+    <string name="project_url"><![CDATA[URL：<a href="https://github.com/jecelyin/920-text-editor-v2/">https://github.com/jecelyin/920-text-editor-v2/</a>]]></string>
+    <!--<string name="qq_group">QQ群：87272821</string>-->
+    <string name="license"><![CDATA[Copyright (C) 2016 Jecelyin Peng,\n\n920 Text Editor open source software is licensed under the Apache License 2.0]]></string>
+    <string name="open_with_external_browser">Open with external browser</string>
+    <string name="contact_email_optional">Contact Email</string>
+    <string name="with_error_logs">Error logs</string>
+    <string name="content">Content</string>
+    <string name="send">Send</string>
+    <string name="feedback_content_length_must_be_greater_than_x_char">Feedback content must be greater than %d</string>
+    <string name="feedback_submit_error_x">Submit feedback fail：%s</string>
+    <string name="submit_success">Submit success</string>
+    <string name="alert">alert</string>
+    <string name="no_find_img">No scan to QRCode information</string>
+    <string name="no_camera">Can not find the available camera, please check if the camera permissions is granted</string>
+    <string name="no_storage">No read storage permission</string>
+    <string name="list_alert">Scan QRCode success</string>
+    <plurals name="x_text_replaced">
+        <item quantity="zero">0 found</item>
+        <item quantity="other">%d text replaced</item>
+    </plurals>
+    <string-array name="insert_datetime_lang">
+        <item>English</item>
+        <item>Chinese</item>
+    </string-array>
+    <string-array name="wrap_char_list">
+        <item>Convert to \\n（Linux/OSX）</item>
+        <item>Convert to \\r\\n（Windows）</item>
+    </string-array>
+    <string-array name="date_number">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="screen_orientation">
+        <item>Follow system</item>
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+
+    <string-array name="list_select">
+        <item>Open in editor</item>
+        <item>Open in .....</item>
+        <item>Rescan</item>
+    </string-array>
+
+
+    <string name="recent_download">Already download</string>
+    <array name="library">Net library</array>
+
+    <string name="load_failed">Load failed,click to reload</string>
+    <string name="download_error">Load failed,click text to reload</string>
+    <string name="download">download</string>
+
+
+    <string-array name="tab_string">
+        <item>Net library</item>
+        <item>Downloaded</item>
+    </string-array>
+
+
+    <string name="private_version">10000</string>
+    <string name="public_version">10000</string>
+    <string name="pref_initialcommand_default_qpython">python</string>
+    <string name="use_qpython_run_script">Run script by qpython</string>
+    <string name="qpy_app">QPY</string>
+    <string name="local_app">Local APP</string>
+    <string name="task">Task</string>
+    <string name="root_mode">Root mode</string>
+    <string name="lib">Library</string>
+    <string name="default_program">Default App</string>
+    <string name="star_it">Rate it</string>
+    <string name="disable_root">Disable</string>
+    <string name="http_qpypi_qpython_org">https://pypi.python.org/simple/</string>
+    <string name="add">add</string>
+    <string name="component">Component</string>
+    <string name="sl4a_running">SL4A server is running</string>
+    <string name="sl4a_un_running">SL4A server is not running</string>
+    <string name="service_toggle">Server taggle</string>
+    <string name="qpy_description">QPython is a script engine running on android devices like phone or tablet.QPython is a script engine running on android devices like phone or tablet.</string>
+    <string name="reinstall">Reinstall</string>
+    <string name="attr">Property</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="warning">Warning</string>
+    <string name="reset_warning">Reset storage will lost all setting and downloaded libs, are you sure you want to reset?</string>
+    <string name="downloading">Library</string>
+    <string name="private_lib">Library in private space</string>
+    <string name="location">Location</string>
+
+
+    <string name="app_label">QEdit</string>
+
+    <string name="app_name_full">QEdit (Text Editor)</string>
+
+    <!--  -->
+    <string name="permission_internal">QEdit Internal Permission</string>
+
+    <!-- Titles -->
+    <string name="title_editor">QEdit - %1$s</string>
+    <string name="title_editor_dirty">QEdit - %1$s *</string>
+    <string name="title_editor_readonly">QEdit - [%1$s]</string>
+    <string name="title_save_as">QEdit - Save as … </string>
+    <string name="title_open">QEdit - Open File</string>
+
+    <string name="title_open_recent">QEdit - Open Recent</string>
+    <string name="title_settings">QEdit - Settings </string>
+    <string name="title_about">QEdit - About … </string>
+    <string name="title_font">QEdit - Text Font </string>
+
+    <!-- Config screen strings -->
+    <string name="config_cat_display">Display</string>
+    <string name="config_cat_other">Other</string>
+    <string name="config_cat_save">Saving</string>
+    <string name="config_cat_undo">Undo</string>
+    <string name="config_cat_search">Search</string>
+    <string name="config_cat_misc">Miscellaneous</string>
+    <string name="config_title_line_numbers">Show line numbers</string>
+    <string name="config_title_word_wrap">Word wrap</string>
+    <string name="config_title_font">Change text font</string>
+    <string name="config_title_text_size">Text size</string>
+    <string name="config_title_color_theme">Color theme</string>
+    <string name="config_title_end_of_lines">End of lines</string>
+    <string name="config_title_max_recent">Maximum recent files</string>
+    <string name="config_title_search_wrap">Search wrap</string>
+    <string name="config_title_search_match_case">Search match case</string>
+    <string name="config_title_encoding">Encoding</string>
+    <string name="config_title_scroll_fling">Fling to scroll faster</string>
+    <string name="config_title_allow_undo_stack">Allow undo</string>
+    <string name="config_title_max_undo_stack">Maximum undo history</string>
+    <string name="config_title_back_to_undo">Use the back button to undo previous modifications</string>
+    <string name="config_title_use_home_page">Use a default file</string>
+    <string name="config_title_auto_save">Auto Save</string>
+    <string name="config_title_auto_save_overwrite">Overwrite existing files</string>
+    <string name="config_summary_auto_save">Automatically saves the file being edited when the app goes in background</string>
+    <string name="config_summary_line_numbers">Display the line number at the left of the page</string>
+    <string name="config_summary_word_wrap">Lines will break in new lines if they are too wide for the screen</string>
+    <string name="config_summary_scroll_fling">Uncheck if you have performance issues</string>
+    <string name="config_summary_use_home_page">Select a file to open when you launch QEdit from your home screen</string>
+    <string name="config_summary_auto_save_overwrite_on">Auto save will overwrite existing files</string>
+    <string name="config_summary_auto_save_overwrite_off">Auto save will only work with new files</string>
+
+    <!-- Options Menu in QEdit -->
+    <string name="menu_new">New</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_open_recent">Recent files</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_save_as">Save as</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_undo">Undo</string>
+    <string name="menu_quit">Quit</string>
+
+    <!-- Misc UI strings -->
+    <string name="ui_save_text">"Do you want to save your document? \nAny unsaved changes will be lost. "</string>
+    <string name="ui_save">Save</string>
+    <string name="ui_delete">Delete</string>
+    <string name="ui_no_save">"Don't save"</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_hint_file_name">File name</string>
+    <string name="ui_hint_search">Search</string>
+    <string name="ui_art_licence">Artistic Licence</string>
+    <string name="ui_history">History</string>
+    <string name="ui_force_read_only">Open as read only</string>
+    <string name="about_content">QEdit is a text editor for android tablets and phones, besides text edit, it can make python / HTML development on android more fun and convenient especially.</string>
+
+    <!-- Misc Strings -->
+    <string name="lorem_ipsum">"QEdit is a great script editor."</string>
+
+    <string name="info_select">Open</string>
+    <string name="info_go">Run</string>
+    <string name="info_help">Help</string>
+    <string name="info_recent">Recent files…</string>
+
+    <string name="cannot_edit">Can not edit</string>
+    <string name="cannot_save">Can not save</string>
+    <string name="cannot_empty">File content must not be empty</string>
+
+    <string name="confirm_save">Confirm to overwrite</string>
+    <string name="info_new">New</string>
+    <string name="dir_new">New directory</string>
+    <string name="dir_exists">The directory exists</string>
+    <string name="cannot_foward">Can not go back</string>
+    <string name="file_exists">File exists, please rename</string>
+    <string name="search_hint"></string>
+
+    <string name="video_src">Video {0}</string>
+    <string name="play_video">Play</string>
+    <string name="no_videos_found">No videos found in this page</string>
+    <string name="play_from_website">Videos website</string>
+    <string name="pls_install_a8_play">Please install A8 Video Player first</string>
+    <string name="download_as">Download and save as</string>
+    <string name="info_browser">QBrowser</string>
+    <string name="pls_open_file">No file yet</string>
+
+    <string name="support_intro">It\'s not Python / HTML file</string>
+    <string name="pls_install_ext_plg">Please install the QPython Plugin</string>
+
+    <!--  added by kyle -->
+    <string name="find">find</string>
+    <string name="share">Share</string>
+    <string name="line_picker_title">Go to Line</string>
+    <string name="line_picker_hint">Line number less than </string>
+    <string name="code_snippets">Code Snippets</string>
+    <string name="save_as_snippets">Save as snippet</string>
+    <string name="snippet_confirm">Snippet exists, confirm to override ?</string>
+    <string name="snippet_exist">Snippet exists, please change to another name.</string>
+    <string name="save_as_snippets_1">Snippets has been saved as: </string>
+    <string name="fail_to_insert">Fail to insert snippet</string>
+    <string name="fail_to_goto">Please input correct number</string>
+    <string name="max_lines_num_with_syntax_title">Auto-highlight lines</string>
+    <string name="max_lines_num_with_syntax_summary">Auto-highlight if lines less than %s</string>
+    <string name="qedit_not_support">QEdit only support to preview/execute the following file types\n.py, .sh, .lua, .html, .md.</string>
+    <string name="qedit_save_first">Please save the file</string>
+    <string name="private4qe_version" translatable="false">100.00</string>
+
+    <string name="pls_install_lua">Please install the QLua to run lua script</string>
+    <string name="pls_install_qpy">Please install the QPython to run python script</string>
+    <string name="info_snippets">Snippets</string>
+    <string name="info_project_type">New …</string>
+    <string name="file_new">New script</string>
+    <string name="script_name_cannot_empty">Script name could not be empty</string>
+    <string name="project_new">New Project</string>
+    <string name="project_name_cannot_empty">You must input project name</string>
+    <string name="project_has_been_created">Project has been created, you are editing the {0}</string>
+    <string name="script_has_been_created">Script has been created, you are editing the {0}</string>
+    <string name="script_name_should_be_py_ext">Script file name should be end-with ".py"</string>
+
+    <string name="qedit_loading">QEdit is launching …</string>
+
+    <string name="ui_ok">OK</string>
+    <string name="ui_yes">Yes</string>
+    <string name="ui_no">No</string>
+    <string name="ui_contact_title">Contact</string>
+    <string name="ui_licence_title">Licence</string>
+    <string name="ui_mail">support@qpython.org</string>
+    <string name="ui_feedback_mail" translatable="false">support@qpython.org</string>
+    <string name="ui_choose_mail">Open mail using &#8230; </string>
+    <string name="ui_market_url">"https://market.android.com/developer?pub=Xavier+Gouchet"</string>
+    <string name="ui_market_app_url">"https://play.google.com/store/apps/details?id=%s"</string>
+    <string name="ui_market">"Take a look at my other apps"</string>
+    <string name="ui_app_rating">"Rate this app \n Leave a feedback"</string>
+    <string name="ui_feedback">"Please feel free to contact me for any feedback, feature request or bug report. "</string>
+    <string name="ui_licence_content">"This software is provided 'as-is', without any express or implied warranty.  In no event will the author be held liable for any damages arising from the use of this software."</string>
+    <string name="ui_art_licence_title">Artistic Licence</string>
+    <string name="ui_art_licence_content">"All icons for this app were created and belong to the author of the app : Xavier Gouchet (android@xgouchet.fr)."</string>
+    <string name="ui_whats_new">"What's new"</string>
+    <string name="save">Save</string>
+    <string name="save_as">Save as</string>
+    <string name="open">Open</string>
+    <string name="file_name">File Name</string>
+    <string name="file_exist_hint">This file is exist, please rename.</string>
+    <string name="empty_file">Blank file</string>
+    <string name="webapp_project">WebApp(Project)</string>
+    <string name="console_app_project">ConsoleApp(Project)</string>
+    <string name="kivy_app_project">KivyApp(Project)</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_project">New project</string>
+    <string name="error_dont_kn">Some error occurred.</string>
+    <string name="project_name">Project name</string>
+    <string name="jump_to">Jump to</string>
+    <string name="line_too_large">Can\'t find this line</string>
+    <string name="choose_ttf">Choose font file(.ttf)</string>
+    <string name="explorer">Explorer</string>
+    <string name="undo">UNDO</string>
+    <string name="new_script">New script</string>
+    <string name="enter_name_hint">Enter script name</string>
+
+    <string name="delete">Delete</string>
+    <string name="deleteText">Delete text</string>
+    <string name="paste">Paste</string>
+    <string name="replace">Replace</string>
+    <string name="textSelectionCABTitle">Select texts</string>
+    <string name="selectAll">Select all</string>
+    <string name="cut">Cut</string>
+    <string name="copy">Copy</string>
+    <string name="install_with_python_s_pypi">INSTALL WITH PYTHON\'S PYPI</string>
+    <string name="py_pi">You can install or upgrde Python packages for android paltform through pypi.python.org</string>
+    <string name="download_fail">Download fail</string>
+    <string name="download_success">Download success</string>
+    <string name="key_root" translatable="false">root</string>
+    <string name="key_sl4a" translatable="false">sl4a</string>
+    <string name="key_qpypi" translatable="false">qpypi</string>
+    <string name="key_reset">reset_storage</string>
+    <string name="key_ftp_state">running_state</string>
+    <string name="key_username">username</string>
+    <string name="key_ftp_pwd">password</string>
+    <string name="key_port_num">portNum</string>
+    <string name="key_show_pwd">show_password</string>
+    <string name="key_root_dir">chrootDir</string>
+    <string name="key_stay_awake">stayAwake</string>
+    <string name="key_about">about</string>
+    <string name="dir_not_valid">The direction is not valid</string>
+    <string name="already_newest">Already newest</string>
+    <string name="share_text">QPython (Play 1.3.3) is a script engine running on android devices like phone or tablet, It embeds the Python interpreter, console, editor, SL4A Library for Android, which can make your android device run Python http://qpython.com/privacy.html</string>
+    <string name="privacy_html" translatable="false">http://qpython.com/privacy.html</string>
+    <string name="new_folder">New Folder</string>
+    <string name="folder_name">Folder name</string>
+    <string name="untitled_folder">untitled folder</string>
+    <string name="toast_folder_exist">Operation failed! Please use a different name</string>
+    <string name="fail_open_file">Unable to open the file, the file is not exists</string>
+    <string name="run_dirty_hint">Do you want to save the change first?</string>
+    <string name="no_im_good">No, I\'m good</string>
+    <string name="convert_fail">Convert fail</string>
+    <string name="delete_file_hint">Do you want to delete this file?</string>
+    <string name="rename">Rename</string>
+    <string name="rename_fail">Rename fail</string>
+    <string name="delete_fail">Delete fail</string>
+    <string name="runtime_log">Runtime Log: %s</string>
+    <string name="fedback_mail">[Feedback]\n\n</string>
+    <string name="log" translatable="false">Log</string>
+    <string name="date_format">[ %s ]</string>
+    <string name="log_format" translatable="false">%s.log</string>
+    <string name="not_root_yet">This device is not root yet</string>
+    <string name="download_apk">Download APK?</string>
+    <string name="download_apk_hint">This operation may charge if you ain\'t in wifi state</string>
+    <string name="downloading_new_apk">Downloading new package</string>
+    <string name="newest">Already newest</string>
+    <string name="cur_ver">Current Version:</string>
+    <string name="checking_update">Checking update</string>
+    <string name="run_bg_title">Run on background</string>
+    <string name="scan">Scan</string>
+    <string name="course">Course</string>
+    <string name="lost_connect">Lose Connect</string>
+    <string name="featured_courses">Courses</string>
+    <string name="programs">Programs</string>
+    <string name="empty_notification">Error-The message is empty</string>
+    <string name="qweb" translatable="false">org.qpython.qpy.main.activity.QWebViewActivity</string>
+    <string name="notification_default_type" translatable="false">in</string>
+    <string name="welcome_to_our_course_center">Welcome to our course center!</string>
+    <string name="course_describe">There are a bunch of courses that help you to learn how to use QPython well or teach you some python tricks.</string>
+    <string name="open_gl2_is_not_supported">OpenGL2 is not supported</string>
+    <string name="unable_extract">Unable to extract python files</string>
+    <string name="get_setting_data_fail">Get setting data fail</string>
+    <string name="terminal_bg_hint">Do you want to keep terminal running on background?</string>
+    <string name="thanks">THANKS!</string>
+    <string name="extra_pypi">Extra Pypi</string>
+    <string name="v_2_0_0">v 2.0.0</string>
+    <string name="already_newest_current_version">Already newest, current version is </string>
+    <string name="reward">Reward</string>
+    <string name="oops_seems_like_your_net_have_some_trouble">Oops! \n Seems like your net have some trouble…</string>
+    <string name="lose_google_server">Can\'t connect to Google Play service, please check your network.</string>
+    <string name="thanks_your_support">Thanks for your support!</string>
+    <string name="under_16_status_bar_hint">The change of status bar\'s visibility will be apply after restart Terminal.</string>
+    <string name="refresh">Refresh</string>
+    <string name="reset_suc">Reset success</string>
+    <string name="reset_hint">This operation will only become effective after restart</string>
+    <string name="restart">Restart</string>
+    <string name="key_qpy">qpy</string>
+    <string name="qpy_server">QPy Server</string>
+    <string name="qpy_not_running">QPy server is not running</string>
+    <string name="qpy_running">QPy server is running</string>
+    <string name="fail_resume_console">Fail to resume console</string>
+    <string name="failed_bind_term">Failed to bind to TermService!</string>
+    <string name="console_running">QPython Console is running</string>
+    <string name="qpy_console">QPython Console</string>
+    <string name="level">lv %s</string>
+    <string name="recommend">Recommend</string>
+    <string name="newest_course">Latest</string>
+    <string name="course_detail">Course Detail</string>
+    <string name="coming_soon">Coming soon : )</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="best_python_development_ide_non_mobile">Best Python Development IDE \non mobile</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="by_signing_in_you_agree_to_out_privacy_policy_term_of_service"><![CDATA[By signing in you agree to out privacy policy & term of service]]></string>
+    <string name="commonly_used">Commonly Used</string>
+    <string name="logo">logo</string>
+    <string name="copy_hint">Copy to editor to run</string>
+    <string name="share_to">SHARE TO</string>
+    <string name="my_scripts">My scripts</string>
+    <string name="bookmark">Bookmarks</string>
+    <string name="my_share">My share</string>
+    <string name="snippet">Snippet</string>
+    <string name="gist_title">Gist Title</string>
+    <string name="description">Description</string>
+    <string name="commit_message">Commit message</string>
+    <string name="desc_text_count">%s/120</string>
+    <string name="too_long_hint">This value is too long. It should have 140 characters or less.</string>
+    <string name="enter_snippet">Enter snippet name</string>
+    <string name="welcome_s">Welcome, <![CDATA[<font color="#4BAC07"><u>%s</u></font>]]></string>
+    <string name="login"><u>login</u></string>
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="my_programs">My Programs</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="log_out">log out</string>
+    <string name="me">Me</string>
+    <string name="grant_storage_hint">You need to grant storage permission</string>
+    <string name="lost_google_hint">Can not connect to google server, please check your internet</string>
+</resources>
