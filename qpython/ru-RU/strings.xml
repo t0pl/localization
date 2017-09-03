@@ -359,7 +359,7 @@
     <string name="cannt_download">Не удаётся загрузить</string>
     <string name="readonly_mode_not_support_this_action">Режим \'Только чтение\' не поддерживает это действие</string>
     <string name="x_text_replaced">%d текст был заменён</string>
-    <string name="enable_root">Использовать root</string>
+    <string name="enable_root">Включён</string>
     <!--<string name="my_name">作者：彭春瑜</string>-->
     <string name="my_email"><![CDATA[Email：<a href="mailto:jecelyin@gmail.com">jecelyin@gmail.com</a>]]></string>
     <string name="project_url"><![CDATA[URL：<a href="https://github.com/jecelyin/920-text-editor-v2/">https://github.com/jecelyin/920-text-editor-v2/</a>]]></string>
@@ -441,7 +441,7 @@
     <string name="lib">Библиотека</string>
     <string name="default_program">Приложение по умолчанию</string>
     <string name="star_it">Оценить</string>
-    <string name="disable_root">Отключить</string>
+    <string name="disable_root">Отключён</string>
     <string name="http_qpypi_qpython_org">https://pypi.python.org/simple/</string>
     <string name="add">добавить</string>
     <string name="component">Компонент</string>
