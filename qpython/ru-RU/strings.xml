@@ -54,7 +54,7 @@
     <string name="next_window">Следующее окно</string>
     <string name="reset">Перезапустить терминал</string>
     <string name="send_email">Отправить email на…</string>
-    <string name="special_keys">Особые кдючи</string>
+    <string name="special_keys">Особые ключи</string>
     <string name="toggle_soft_keyboard">Открыть/Закрыть клавиатуру</string>
 
     <string name="reset_toast_notification">The state at present will be reset.</string>
@@ -119,11 +119,11 @@
     <string name="dialog_title_backaction_preference">Поведение кнопки назад</string>
 
     <string name="title_controlkey_preference">Клавиша Ctrl</string>
-    <string name="summary_controlkey_preference">Выберите поведение клавиши Ctrl</string>
+    <string name="summary_controlkey_preference">Выберите активатор клавиши Ctrl</string>
     <string name="dialog_title_controlkey_preference">Клавиша Ctrl</string>
 
     <string name="title_fnkey_preference">Клавиша Fn</string>
-    <string name="summary_fnkey_preference">Выберите поведение клавиши Fn</string>
+    <string name="summary_fnkey_preference">Выберите активатор клавиши Fn</string>
     <string name="dialog_title_fnkey_preference">Клавиша Fn</string>
 
     <string name="title_ime_preference">Способ ввода</string>
@@ -146,7 +146,7 @@
     <string name="title_close_window_on_process_exit_preference">Закрывать окно при выходе</string>
     <string name="summary_close_window_on_process_exit_preference">Закрывать окно при выходе</string>
 
-    <string name="title_verify_path_preference">проверить PATH</string>
+    <string name="title_verify_path_preference">Проверить PATH</string>
     <string name="summary_verify_path_preference">Очистить неправильный PATH</string>
 
     <string name="title_do_path_extensions_preference">Разрешить расширение PATH</string>
@@ -359,7 +359,7 @@
     <string name="cannt_download">Не удаётся загрузить</string>
     <string name="readonly_mode_not_support_this_action">Режим \'Только чтение\' не поддерживает это действие</string>
     <string name="x_text_replaced">%d текст был заменён</string>
-    <string name="enable_root">Использовать root</string>
+    <string name="enable_root">Включён</string>
     <!--<string name="my_name">作者：彭春瑜</string>-->
     <string name="my_email"><![CDATA[Email：<a href="mailto:jecelyin@gmail.com">jecelyin@gmail.com</a>]]></string>
     <string name="project_url"><![CDATA[URL：<a href="https://github.com/jecelyin/920-text-editor-v2/">https://github.com/jecelyin/920-text-editor-v2/</a>]]></string>
@@ -441,14 +441,14 @@
     <string name="lib">Библиотека</string>
     <string name="default_program">Приложение по умолчанию</string>
     <string name="star_it">Оценить</string>
-    <string name="disable_root">Отключить</string>
+    <string name="disable_root">Отключён</string>
     <string name="http_qpypi_qpython_org">https://pypi.python.org/simple/</string>
     <string name="add">добавить</string>
     <string name="component">Компонент</string>
     <string name="sl4a_running">SL4A сервер запущен</string>
     <string name="sl4a_un_running">SL4A сеовер не активен</string>
     <string name="service_toggle">Переключить сервер</string>
-    <string name="qpy_description">QPython эьо движок для скриптов, запускаемый на устройствах Android, таких, как телефоны и планшеты.</string>
+    <string name="qpy_description">QPython это движок для скриптов, запускаемый на устройствах Android, таких, как телефоны и планшеты.</string>
     <string name="reinstall">Переустановить</string>
     <string name="attr">Принадлежность</string>
     <string name="uninstall">Удалить</string>
@@ -646,7 +646,7 @@
     <string name="selectAll">Выбрать всё</string>
     <string name="cut">Вырезать</string>
     <string name="copy">Копировать</string>
-    <string name="install_with_python_s_pypi">УСТАНОВИТЬ, ИСПОЛЬЗУЯ PYPI PYTHON\'А</string>
+    <string name="install_with_python_s_pypi">УСТАНОВИТЬ, ИСПОЛЬЗУЯ PYTHON PYPI</string>
     <string name="py_pi">Вы можете установить или обновить пакеты Python для платформы андроид через pypi.python.org</string>
     <string name="download_fail">Не удалось загрузить</string>
     <string name="download_success">Загружено</string>
@@ -732,7 +732,7 @@
     <string name="course_detail">Информация о курсе</string>
     <string name="coming_soon">Coming soon :)</string>
     <string name="login_with_google">Авторизироваться через Google</string>
-    <string name="best_python_development_ide_non_mobile">Лучшая мобильная IDE\n для разработки на Python\'е</string>
+    <string name="best_python_development_ide_non_mobile">Лучшая мобильная IDE\n для разработки на Python</string>
     <string name="sign_in_with_google">Войти через Google</string>
     <string name="by_signing_in_you_agree_to_out_privacy_policy_term_of_service"><![CDATA[By signing in you agree to out privacy policy & term of service]]></string>
     <string name="commonly_used">Часто используется</string>

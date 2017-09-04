@@ -84,8 +84,8 @@
         <item>Закрыть все окна</item>
         <item>Закрыть текущее окно</item>
         <item>Закрыть текущее окно, но оставить сессии работать</item>
-        <item>Нажать клавишу ESC в Терминале</item>
-        <item>Нажать клавишу TAB в Терминале</item>
+        <item>Отправить ESC в терминал</item>
+        <item>Отправить TAB в терминал</item>
     </string-array>
 
     <string-array name="entries_controlkey_preference">
