@@ -1,63 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">QPython</string>
-    <string name="app_label">QPython</string>
 
-    <string name="app_name_full">QEdit（文本編輯）</string>
     <!-- -->
-    <string name="permission_internal">QEdit內部權限</string>
     <!-- Titles -->
-    <string name="title_editor">QEdit - %1$s</string>
-    <string name="title_editor_dirty">QEdit - %1$s *</string>
-    <string name="title_editor_readonly">QEdit - [%1$s]</string>
-    <string name="title_save_as">QEdit - 另存為…</string>
-    <string name="title_open">QEdit - 打開文件</string>
-    <string name="title_open_recent">QEdit - 打開最近</string>
-    <string name="title_settings">QEdit - 設置</string>
-    <string name="title_about">QEdit - 關於… </string>
-    <string name="title_font">QEdit - 文字字體</string>
+    <string name="title_editor">%1$s</string>
+    <string name="title_editor_dirty">%1$s *</string>
+    <string name="title_editor_readonly">[%1$s]</string>
+    <string name="title_settings">設置</string>
     <!-- Config screen strings -->
     <string name="config_cat_display">顯示</string>
-    <string name="config_cat_other">其他</string>
-    <string name="config_cat_save">保存</string>
-    <string name="config_cat_undo">復原</string>
-    <string name="config_cat_search">搜索</string>
-    <string name="config_cat_misc">雜項</string>
     <string name="config_title_line_numbers">顯示行號</string>
     <string name="config_title_word_wrap">自動換行</string>
     <string name="config_title_font">更改文本字體</string>
     <string name="config_title_text_size">文字大小</string>
     <string name="config_title_color_theme">顏色主題</string>
-    <string name="config_title_end_of_lines">行結束</string>
-    <string name="config_title_max_recent">近期最大的文件</string>
-    <string name="config_title_search_wrap">搜索包裝</string>
-    <string name="config_title_search_match_case">搜索匹配情況</string>
-    <string name="config_title_encoding">編碼</string>
     <string name="config_title_scroll_fling">快速滾動</string>
-    <string name="config_title_allow_undo_stack">允許撤消</string>
-    <string name="config_title_max_undo_stack">最大撤消歷史記錄</string>
-    <string name="config_title_back_to_undo">使用後退按鈕來撤銷先前修改</string>
-    <string name="config_title_use_home_page">使用默認的文件</string>
-    <string name="config_title_auto_save">自動保存</string>
-    <string name="config_title_auto_save_overwrite">覆蓋現有文件</string>
-    <string name="config_summary_auto_save">在應用程序進入後台時，自動保存正在編輯的文件</string>
     <string name="config_summary_line_numbers">在左側顯示的行號</string>
     <string name="config_summary_word_wrap">如果某行對於屏幕太寬時，自動換行</string>
     <string name="config_summary_scroll_fling">如果有性能問題，不要選中</string>
-    <string name="config_summary_use_home_page">當您從您的主屏幕啟動QEdit，選擇要打開的文件</string>
-    <string name="config_summary_auto_save_overwrite_on">自動保存將覆蓋現有文件</string>
-    <string name="config_summary_auto_save_overwrite_off">自動保存只在新文件中工作</string>
     <!-- Options Menu in QEdit -->
-    <string name="menu_new">新建</string>
-    <string name="menu_open">打開</string>
-    <string name="menu_open_recent">最近的文件</string>
-    <string name="menu_save">保存</string>
-    <string name="menu_save_as">另存為</string>
-    <string name="menu_settings">設置</string>
-    <string name="menu_about">關於</string>
-    <string name="menu_search">搜索</string>
-    <string name="menu_undo">撤銷</string>
-    <string name="menu_quit">退出</string>
     <!-- Misc UI strings -->
     <string name="ui_save_text">“你想保存文檔？\n任何未保存更改將丟失。”</string>
     <string name="ui_save">保存</string>
@@ -66,64 +28,31 @@
     <string name="ui_cancel">取消</string>
     <string name="ui_hint_file_name">文件名</string>
     <string name="ui_hint_search">搜索</string>
-    <string name="ui_art_licence">藝術授權</string>
     <string name="ui_history">歷史</string>
     <string name="ui_force_read_only">打開為只讀</string>
     <string name="about_content">QEdit 是一個文本編輯器，針對Android平板電腦和手機，除了文本編輯，它可以使安卓上的Python/HTML 開發更方便和有趣。 </string>
     <!-- Misc Strings -->
     <string name="lorem_ipsum">“QEdit 是一個偉大的腳本編輯器”</string>
-    <string name="info_select">打開</string>
-    <string name="info_go">運行</string>
-    <string name="info_help">幫助</string>
-    <string name="info_recent">最近的文件…</string>
-    <string name="cannot_edit">不能編輯</string>
-    <string name="cannot_save">無法保存</string>
-    <string name="cannot_empty">文件內容不能為空</string>
-    <string name="confirm_save">確認覆蓋</string>
-    <string name="info_new">新建</string>
-    <string name="dir_new">新建目錄</string>
-    <string name="dir_exists">該目錄存在</string>
-    <string name="cannot_foward">無法後退</string>
     <string name="file_exists">文件已存在，請重命名</string>
     <string name="video_src">視頻{0}</string>
     <string name="play_video">播放</string>
     <string name="no_videos_found">沒有發現影片在本頁面</string>
-    <string name="play_from_website">視頻網站</string>
     <string name="pls_install_a8_play">請首先安裝A8視頻播放器</string>
     <string name="download_as">下載並保存為</string>
     <string name="info_browser">QBrowser</string>
-    <string name="pls_open_file">沒有文件</string>
-    <string name="support_intro">這不是Python/HTML的文件</string>
-    <string name="pls_install_ext_plg">請安裝QPython插件</string>
     <!-- added by kyle -->
-    <string name="find">發現</string>
     <string name="share">分享</string>
-    <string name="line_picker_title">轉至某行</string>
-    <string name="line_picker_hint">行數少於</string>
-    <string name="code_snippets">代碼段</string>
     <string name="save_as_snippets">另存為片段</string>
     <string name="info_snippets">片段</string>
-    <string name="snippet_confirm">片段已存在，確認覆蓋？ </string>
     <string name="save_as_snippets_1">片段已另存為： </string>
     <string name="fail_to_insert">無法插入片段</string>
     <string name="fail_to_goto">請輸入正確的號碼</string>
     <string name="max_lines_num_with_syntax_title">自動高亮</string>
     <string name="max_lines_num_with_syntax_summary">自動突出顯示，如果行數少於</string>
     <string name="qedit_not_support">QEdit 僅僅支持預覽或執行以下類型的文件\n.py，.SH，.lua，html，.md。 </string>
-    <string name="qedit_save_first">請保存文件</string>
     <string name="pls_install_lua">請安裝QLua 運行LUA 腳本</string>
     <string name="pls_install_qpy">請安裝QPython 運行python 腳本</string>
-    <string name="info_project_type">新建…</string>
-    <string name="file_new">新建腳本</string>
-    <string name="script_name_cannot_empty">腳本名稱不能為空</string>
-    <string name="project_new">新建項目</string>
-    <string name="project_name_cannot_empty">你必須輸入項目名稱</string>
-    <string name="project_has_been_created">項目已創建，您正在編輯的{0}</string>
-    <string name="script_has_been_created">腳本已創建，您正在編輯的{0}</string>
-    <string name="script_name_should_be_py_ext">腳本後綴名應該是“.py”</string>
     <string name="ui_ok">OK</string>
-    <string name="ui_yes">是</string>
-    <string name="ui_no">否</string>
     <string name="ui_contact_title">聯繫</string>
     <string name="ui_licence_title">授權</string>
     <string name="ui_mail">support@quseit.com</string>
@@ -135,20 +64,17 @@
     <string name="ui_feedback">“請隨時聯繫我們不管是反饋，功能要求或錯誤報告等。”</string>
     <string name="ui_licence_content">“本軟件提供“原樣”,無任何明示或暗示的保證。不管在任何情況下，筆者應該對因使用本軟件所引起的任何損失負責。”</string>
     <string name="ui_art_licence_title">設計授權</string>
-    <string name="ui_art_licence_content">“創建所有的圖標為這個應用程序，並屬於該應用程序的作者： Xavier Gouchet (android@xgouchet.fr)."</string>
+    <string name="ui_art_licence_content">“創建所有的圖標為這個應用程序，並屬於該應用程序的作者： QPython."</string>
     <string name="ui_whats_new">“有什麼新聞？”</string>
     <string name="addshortcut_arguments_label">添加到字典</string>
     <string name="alt_sends_esc">Ale 鍵發送 ESC</string>
     <string name="alt_sends_esc_summary_off">關閉Alt 鍵發送 ESC</string>
     <string name="alt_sends_esc_summary_on">使用Alt 鍵發送ESC</string>
     <string name="application_terminal">終端模擬器</string>
-    <string name="back_app">再按一次退出程序</string>
     <string name="choose_ttf">選擇字體文件(.ttf)</string>
-    <string name="close_window">關閉窗口</string>
-    <string name="club">社區</string>
+    <string name="close_window">關閉終端</string>
     <string name="use_keyboard_shortcuts_summary_off">禁用鍵盤快捷鍵</string>
     <string name="toggle_soft_keyboard">打開/關閉軟鍵盤</string>
-    <string name="toast_read_permission_deny">權限被拒絕</string>
     <string name="toast_plugin_uninstall_complete">插件刪除成功</string>
     <string name="toast_plugin_install_failure">插件安裝失敗</string>
     <string name="toast_plugin_install_complete">插件安裝完成</string>
@@ -167,14 +93,11 @@
     <string name="title_fontsize_preference">文本大小</string>
     <string name="title_fnkey_preference">Fn 鍵</string>
     <string name="title_do_path_extensions_preference">允許PATH後擴</string>
-    <string name="title_cursorstyle_preference">光標樣式</string>
-    <string name="title_cursorblink_preference">光標閃爍</string>
     <string name="title_controlkey_preference">Ctrl 鍵</string>
     <string name="title_color_preference">顏色</string>
-    <string name="title_close_window_on_process_exit_preference">退出時關閉窗口</string>
+    <string name="title_close_window_on_process_exit_preference">退出時關閉終端</string>
     <string name="title_backaction_preference">返回鍵行爲</string>
     <string name="title_allow_prepend_path_preference">允許PATH前置</string>
-    <string name="title_activity_settings">設置</string>
     <string name="title_actionbar_preference">操作欄</string>
     <string name="text_preferences">文本</string>
     <string name="terminal">終端</string>
@@ -184,220 +107,34 @@
     <string name="summary_statusbar_preference">顯示/隱藏狀態欄</string>
     <string name="summary_shell_preference">指定命令行使用的 Shell</string>
     <string name="summary_orientation_preference">選擇屏幕方位行爲</string>
-    <string name="new_file">新建</string>
-    <string name="redo">重做</string>
-    <string name="save_all">全部保存</string>
-    <string name="recent_files">最近打開</string>
-    <string name="line_separator">換行符</string>
-    <string name="select_all">全選</string>
-    <string name="duplication_line">重復行</string>
-    <string name="find_in_files">搜索文件</string>
-    <string name="jump_to_start">跳到開始</string>
-    <string name="jump_to_end">跳到結束</string>
-    <string name="goto_line">跳到行</string>
-    <string name="back">上個位置</string>
-    <string name="forward">下個位置</string>
-    <string name="document_info">文檔信息</string>
-    <string name="insert_color">插入顏色</string>
-    <string name="highlight_language">高亮語言</string>
-    <string name="encoding">編碼</string>
     <string name="read_only">只讀模式</string>
-    <string name="insert_datetime">插入時間</string>
-    <string name="edit_mode">編輯模式</string>
-    <string name="run">運行</string>
     <string name="file">文件</string>
-    <string name="other">其它</string>
-    <string name="view">查看</string>
-    <string name="edit">編輯</string>
-    <string name="new_filename">無標題 %d</string>
-    <string name="confirm_save_msg">文檔 %s 尚未保存，是否保存並關閉</string>
     <string name="yes">是</string>
     <string name="no">否</string>
-    <string name="cannt_access_file">文件 %s 無法訪問</string>
-    <string name="cannt_read_file">無法讀取文件 %s</string>
     <string name="ok">確定</string>
-    <string name="read_file_exception">讀取文件時發生異常</string>
-    <string name="init_syntax_msg">正在初始化語法高亮…</string>
-    <string name="init_syntax_error">初始化語法文件失敗，請檢查是否有足夠的存儲空間</string>
-    <string name="init_build_index_error">建立索引失敗</string>
     <string name="close">關閉</string>
-    <string name="convert_wrap_char">轉換換行符</string>
-    <string name="path_x">路徑：%s</string>
-    <string name="char_x">字符數：%d</string>
-    <string name="word_x">單詞數：%d</string>
-    <string name="line_number_x">行數：%d</string>
-    <string name="encoding_x">編碼：%s</string>
     <string name="no_change">沒有任何改變</string>
-    <string name="save_success">保存成功</string>
-    <string name="find_label">Find What:</string>
-    <string name="replace_label">Replace With:</string>
-    <string name="case_sensitive">Case sensitive</string>
-    <string name="whole_words_only">Whole words only</string>
-    <string name="regex">Regular expression</string>
-    <string name="in_path">In Path:</string>
-    <string name="recursively">Recursively</string>
-    <string name="cannot_be_empty">不能為空</string>
-    <string name="path_not_exists">路徑不存在</string>
-    <string name="find_not_found">找不到結果</string>
-    <string name="previous_occurrence">向上查找</string>
-    <string name="next_occurrence">查找下一個</string>
-    <string name="replace_all">替換全部</string>
-    <string name="searching">搜索中…</string>
-    <string name="select_lang_to_highlight">Select a language to highlight</string>
-    <string name="more_menu">更多菜單</string>
-    <string name="reopen_with_encoding">使用該編碼重新打開</string>
-    <string name="save_as_file_first">請先保存為文件</string>
-    <string name="document_changed">文檔已經改變</string>
-    <string name="give_up_document_changed_message">文檔已經改變，重新打開將放棄改變，確認要放棄？</string>
-    <string name="preview_in_browser">在瀏覽器預覽</string>
-    <string name="use_sl4a_in_background_run_script">調用SL4A在後台運行腳本</string>
-    <string name="use_sl4a_in_terminal_run_script">調用SL4A在命令行運行腳本</string>
-    <string name="please_save_as_file_first">請先保存為文件</string>
-    <string name="run_fail_message">調用外部應用失敗</string>
-    <string name="settings">設置</string>
-    <string name="font">字體</string>
-    <string name="default_value">默認值</string>
-    <string name="font_size">字體大小</string>
-    <string name="cursor_width">光標寬度</string>
-    <string name="word_wrap_in_editor">自動換行</string>
-    <string name="show_linenumber">顯示行號</string>
-    <string name="show_whitespace">顯示空白字符</string>
-    <string name="auto_indent">自動縮進</string>
-    <string name="insert_space_for_tab">使用空格代替制表符</string>
-    <string name="indent_size">縮進大小</string>
-    <string name="highlight_and_theme">高亮和主題</string>
-    <string name="highlight_the_file_size_limit">限制高亮的文件大小</string>
-    <string name="select_theme">選擇主題（待開發）</string>
-    <string name="auto_save">自動保存文檔</string>
-    <string name="remember_last_opened_files">記住最後打開的文件</string>
-    <string name="remember_last_opened_files_summary">啟動編輯器時自動打開上次打開的文件</string>
-    <string name="screen_orientation">屏幕方向</string>
-    <string name="keep_screen_on">保持屏幕常亮</string>
-    <string name="auto_capitalize">首字母自動大寫</string>
     <string name="feedback">意見反饋</string>
-    <string name="donate">捐贈</string>
-    <string name="help_translate">翻譯本應用</string>
     <string name="about">關於</string>
-    <string name="enable_highlight">啟用語法高亮</string>
-    <string name="version_x">版本：%s</string>
-    <string name="need_to_enable_read_storage_permissions">需要打開讀取存儲器權限</string>
     <string name="file_not_exists">文件不存在</string>
-    <string name="cannt_handle_intent_x">無法處理來源信息：%s</string>
-    <string name="handle_intent_x_error">處理來源：%s 時發生錯誤</string>
-    <string name="hex_color_char" >#</string>
-    <string name="color_R" >R:</string>
-    <string name="color_G" >G:</string>m
-    <string name="color_B" >B:</string>
-    <string name="verify_sign_failure">你當前使用的是非官方發布的應用，請轉到 https://github.com/jecelyin/920-text-editor-v2/releases 下載官方發布的應用。</string>
-    <string name="press_again_will_exit">再按一次返回按鈕將退出程序</string>
-    <string name="find_replace">查找/替換</string>
-    <string name="find_title">\"%s\" 查找結果</string>
-    <string name="zero_matches">0 matches</string>
-    <string name="chooser_browser">選擇一個瀏覽器</string>
-    <string name="find_or_replace">查找/替換…</string>
-    <string name="other_application">其它程序…</string>
-    <string name="chooser_application">選擇程序</string>
-    <string name="editor_create_unknown_exception">創建編輯器時發生未知異常</string>
-    <string name="convert_to_uppercase">轉換為大寫</string>
-    <string name="convert_to_lowercase">轉換為小寫</string>
-    <string name="duplication_text">重復選中文本</string>
-    <string name="new_version_available">發現新版本</string>
-    <string name="install">安裝</string>
-    <string name="new_version_update_content">Latest Version: %1$s\n\nWhat\'s New:\n%2$s</string>
-    <string name="download_progress">正在下載：%1$d%%</string>
-    <string name="download_failure_x">下載失敗：%s</string>
-    <string name="start_download">開始下載</string>
-    <string name="auto_check_updates">自動檢查更新</string>
-    <string name="cannt_download">無法下載</string>
-    <string name="readonly_mode_not_support_this_action">Read-only mode does not support this action</string>
-    <string name="x_text_replaced">%d text has been replaced</string>
+    m
     <string name="enable_root">啟用Root權限</string>
-    <string name="my_email" ><![CDATA[Email：<a href="mailto:jecelyin@gmail.com">jecelyin@gmail.com</a>]]></string>
-    <string name="project_url" ><![CDATA[URL：<a href="https://github.com/jecelyin/920-text-editor-v2/">https://github.com/jecelyin/920-text-editor-v2/</a>]]></string>
-    <string name="license"><![CDATA[Copyright (C) 2016 Jecelyin Peng,\n\n920 Text Editor open source software is licensed under the Apache License 2.0]]></string>
-    <string name="open_with_external_browser">使用外部瀏覽器打開</string>
-    <string name="contact_email_optional">聯系Email（可選）</string>
-    <string name="with_error_logs">錯誤日志</string>
-    <string name="content">內容</string>
     <string name="send">發送</string>
-    <string name="feedback_content_length_must_be_greater_than_x_char">反饋內容長度必須大於%d個字</string>
-    <string name="feedback_submit_error_x">提交反饋失敗：%s</string>
-    <string name="submit_success">提交成功</string>
-    <string name="alert">警告</string>
-    <string name="no_find_img">沒有掃描到二維碼信息</string>
     <string name="no_camera">沒有發現可用的攝像頭，請查看是否開啟攝像頭權限</string>
     <string name="no_storage">沒有文件讀取權限</string>
-    <string name="list_alert">掃描到了二維碼</string>
-    <plurals name="x_text_replaced">
-        <item quantity="zero">0 found</item>
-        <item quantity="other">%d text replaced</item>
-    </plurals>
-    <string-array name="insert_datetime_lang">
-        <item>英語</item>
-        <item>中文</item>
-    </string-array>
-    <string-array name="wrap_char_list">
-        <item>轉換為 \\n（Linux/OSX）</item>
-        <item>轉換為 \\r\\n（Windows）</item>
-    </string-array>
-    <string-array name="date_number">
-        <item>〇</item>
-        <item>一</item>
-        <item>二</item>
-        <item>三</item>
-        <item>四</item>
-        <item>五</item>
-        <item>六</item>
-        <item>七</item>
-        <item>八</item>
-        <item>九</item>
-        <item>十</item>
-    </string-array>
-    <string-array name="screen_orientation">
-        <item>自動</item>
-        <item>橫屏</item>
-        <item>豎屏</item>
-    </string-array>
-
-    <string-array name="list_select">
-        <item>在編輯器中打開</item>
-        <item>在.....打開</item>
-        <item>重新掃描</item>
-    </string-array>
 
 
-    <string name="recent_download">已下載</string>
-    <array name="library">網絡庫</array>
-
-    <string name="load_failed">加載失敗，點擊重新加載</string>
-    <string name="download_error">加載出現了問題，點擊文字，重新加載</string>
-    <string name="download">下載</string>
-
-
-    <string-array name="tab_string">
-        <item>網絡庫</item>
-        <item>已下載</item>
-    </string-array>
-
-
-    <string name="private_version">10000</string>
-    <string name="public_version">10000</string>
     <string name="pref_initialcommand_default_qpython">python</string>
     <string name="qpy_app">QPY</string>
     <string name="local_app">本機應用</string>
     <string name="root_mode">Root模式</string>
-    <string name="lib">庫管理</string>
-    <string name="default_program">默認程序</string>
     <string name="star_it">為他打分</string>
     <string name="disable_root">已禁用</string>
     <string name="http_qpypi_qpython_org">https://pypi.python.org/simple/</string>
     <string name="add">添加</string>
-    <string name="component">組件</string>
     <string name="sl4a_running">SL4A服務運行中</string>
     <string name="service_toggle">服務開關</string>
     <string name="qpy_description">QPython is a script engine running on android devices like phone or tablet.QPython is a script engine running on android devices like phone or tablet.</string>
-    <string name="reinstall">重新安裝</string>
-    <string name="attr">屬性</string>
     <string name="warning">警告</string>
     <string name="reset_warning">重置空間將刪除所有在/qpython下的文件,包括您新建的文件,確定重置嗎?</string>
     <string name="downloading">庫文件</string>
@@ -415,24 +152,14 @@
     <string name="error_dont_kn">發生了某些錯誤</string>
     <string name="project_name">項目名</string>
     <string name="jump_to">轉至某行</string>
-    <string name="line_too_large">Can\'t find this line</string>
     <string name="explorer">文件夾</string>
-    <string name="undo">UNDO</string>
     <string name="new_script">新建腳本</string>
     <string name="enter_name_hint">請輸入文件名</string>
 
-    <string name="delete">刪除</string>
-    <string name="deleteText">刪除文本</string>
     <string name="paste">粘貼</string>
-    <string name="replace">替換</string>
-    <string name="textSelectionCABTitle">選取文字</string>
-    <string name="selectAll">全選</string>
-    <string name="cut">剪切</string>
-    <string name="copy">復制</string>
     <string name="install_with_python_s_pypi">INSTALL WITH PYTHON\'S PYPI</string>
     <string name="py_pi">You can install or upgrde Python packages for android paltform through pypi.python.org</string>
     <string name="download_fail">下載失敗</string>
-    <string name="download_success">下載成功</string>
     <string name="activity_shortcut_create">終端快捷方式</string>
     <string name="activity_term_here_title">在此處運行終端</string>
     <string name="addshortcut_button_find_command">查找命令</string>
@@ -449,21 +176,15 @@
     <string name="control_key_dialog_fn_disabled_text">Fn 鍵未設置</string>
     <string name="control_key_dialog_title">Ctrl 和 Fn 鍵</string>
     <string name="copy_all">複製全部</string>
-    <string name="dialog_item_project">運行項目</string>
-    <string name="dialog_item_qrcode">掃描二維碼</string>
-    <string name="dialog_item_script">運行腳本</string>
     <string name="dialog_plugin_detail_positive">確定</string>
     <string name="dialog_title_actionbar_preference">操作欄行爲</string>
     <string name="dialog_title_backaction_preference">返回鍵行爲</string>
     <string name="dialog_title_color_preference">文字顏色</string>
     <string name="dialog_title_controlkey_preference">Ctrl 鍵</string>
-    <string name="dialog_title_cursorblink_preference">光標閃爍</string>
-    <string name="dialog_title_cursorstyle_preference">光標樣式</string>
     <string name="dialog_title_fnkey_preference">Fn 鍵</string>
     <string name="dialog_title_fontsize_preference">文字大小</string>
     <string name="dialog_title_ime_preference">輸入方式</string>
     <string name="dialog_title_initialcommand_preference">初始化命令</string>
-    <string name="dialog_title_menu">菜單</string>
     <string name="dialog_title_orientation_preference">屏幕方向事件</string>
     <string name="dialog_title_project">項目</string>
     <string name="dialog_title_script">腳本</string>
@@ -472,11 +193,10 @@
     <string name="dialog_title_termtype_preference">終端類型</string>
     <string name="disable_wakelock">禁用弱鎖</string>
     <string name="disable_wifilock">禁用Wifi 鎖</string>
-    <string name="document">文檔</string>
     <string name="edit_text">編輯文字</string>
     <string name="editor">編輯器</string>
-    <string name="email_transcript_chooser_title">發送副本的郵件實例：</string>
-    <string name="email_transcript_no_email_activity_found">找不到郵件實例發送fubf</string>
+    <string name="email_transcript_chooser_title">反饋 ...</string>
+    <string name="email_transcript_no_email_activity_found">找不到郵件實例發送</string>
     <string name="email_transcript_subject">複製終端</string>
     <string name="enable_wakelock">啓用Root模式</string>
     <string name="enable_wifilock">啓用Wifi 鎖</string>
@@ -489,24 +209,17 @@
     <string name="help_url" >http://jackpal.github.com/Android-Terminal-Emulator/help/index.html</string>
     <string name="internal_space">重置內存空間</string>
     <string name="keyboard_preferences">鍵盤</string>
-    <string name="lib_manager">合併庫</string>
-    <string name="library">庫</string>
-    <string name="library_manager">庫管理</string>
+    <string name="qpypi">庫</string>
     <string name="location">位置</string>
     <string name="more">更多</string>
-    <string name="new_window">打開新窗口</string>
-    <string name="next_window">下一個窗口</string>
-    <string name="perm_append_to_path">向終端添加命令</string>
-    <string name="perm_prepend_to_path">複寫終端中的命令</string>
-    <string name="perm_run_script">運行終端中的命令</string>
+    <string name="new_window">打開新終端</string>
     <string name="already_newest">當前已是最新版本</string>
+    <string name="extra_pypi">設置PYPI</string>
+
     <string name="checking_update">檢查更新</string>
-    <string name="confirm_window_close_message">確定要關閉窗口嗎？</string>
-    <string name="console">控制台</string>
+    <string name="confirm_window_close_message">確定要關閉終端嗎？</string>
     <string name="convert_fail">轉換失敗</string>
     <string name="course">課程</string>
-    <string name="course_describe">這一系列的教程可以幫助你通過使用QPython來更好的學習Python語言</string>
-    <string name="cur_ver">當前版本</string>
     <string name="date_format">[ %s ]</string>
     <string name="delete_fail">刪除失敗</string>
     <string name="delete_file_hint">確定要刪除該文件嗎？</string>
@@ -514,7 +227,6 @@
     <string name="download_apk">下載最新安裝包</string>
     <string name="download_apk_hint">下載可能會消耗運營商流量，確認下載嗎？</string>
     <string name="downloading_new_apk">下載新的包</string>
-    <string name="empty_notification">Error-推送信息爲空</string>
     <string name="fail_open_file">無法打開，該文件不存在</string>
     <string name="featured_courses">課程中心</string>
     <string name="folder_name">文件夾名</string>
@@ -528,25 +240,15 @@
     <string name="key_show_pwd">顯示密碼</string>
     <string name="key_stay_awake">保持喚醒</string>
     <string name="key_username">用戶名</string>
-    <string name="navigation_drawer_close">關閉菜單</string>
-    <string name="navigation_drawer_open">打開菜單</string>
     <string name="new_folder">新建文件夾</string>
-    <string name="newest">當前已是最新</string>
-    <string name="normal_program">默認應用</string>
     <string name="not_root_yet">該設備未進入Root模式</string>
     <string name="open_gl2_is_not_supported">當前設備不支持OpenGL2</string>
     <string name="plugin_detail">詳情</string>
     <string name="plugin_install">安裝</string>
     <string name="plugin_uninstall">卸載</string>
     <string name="plugin_update">更新</string>
-    <string name="pref_header_general">通用</string>
-    <string name="pref_header_notifications">消息通知</string>
-    <string name="pref_ringtone_silent">靜音</string>
     <string name="pref_termtype_default">屏幕</string>
-    <string name="prev_window">上一窗口</string>
-    <string name="private_lib">私有庫</string>
     <string name="process_exit_message">會話已結束</string>
-    <string name="program">程序</string>
     <string name="programs">程序</string>
     <string name="project">項目</string>
     <string name="recent">最近</string>
@@ -557,41 +259,27 @@
     <string name="run_bg_title">在後臺運行</string>
     <string name="run_dirty_hint">保存當前修改嗎？</string>
     <string name="runtime_log">運行日誌 : %s</string>
+    <string name="log_title">運行日誌</string>
+
     <string name="scan">二維碼</string>
+    <string name="read_script_from_qrcode">從二維碼中讀取代碼</string>
+
     <string name="screen_preferences">屏幕</string>
     <string name="script">腳本</string>
     <string name="select_text">選擇文字</string>
     <string name="send_email">發送郵件至…</string>
     <string name="setting">設置</string>
-    <string name="setting_about">關於</string>
-    <string name="setting_back">反饋</string>
-    <string name="setting_mark">爲該應用評分</string>
-    <string name="setting_update">檢查更新</string>
     <string name="sl4a_server">SL4A服務</string>
     <string name="sl4a_un_running">SL4A服務未啓動</string>
     <string name="special_keys">特殊鍵</string>
-    <string name="symbol">符號</string>
-    <string name="tab">標籤</string>
-    <string name="tab_size">製表符大小</string>
     <string name="task">Task</string>
     <string name="title_use_keyboard_shortcuts">使用鍵盤快捷鍵</string>
-    <string name="touch_to_adjust_text_size">多點觸摸縮放字體大小</string>
     <string name="unable_extract">解壓python文件失敗，可能影響部分功能使用</string>
     <string name="untitled_folder">未命名文件夾</string>
-    <string name="use_qpython_run_script">調用QPython運行</string>
-    <string name="welcome_to_our_course_center">歡迎來到課程中心！</string>
-    <string name="window_list">窗口列表</string>
-    <string name="window_title">窗口 %1$d</string>
+    <string name="window_list">終端列表</string>
+    <string name="window_title">終端 %1$d</string>
     <string name="file_exist_hint">文件已存在，請重命名</string>
     <string name="community">社區</string>
     <string name="terminal_bg_hint">在後臺運行此控制臺？</string>
     <string name="preferences">偏好</string>
-    <string name="pref_title_vibrate">震動</string>
-    <string name="pref_title_system_sync_settings">系統同步設置</string>
-    <string name="pref_title_sync_frequency">同步頻率</string>
-    <string name="pref_title_social_recommendations"></string>
-    <string name="pref_title_ringtone">鈴聲</string>
-    <string name="pref_title_new_message_notifications">新消息提醒</string>
-    <string name="pref_title_display_name">顯示名字</string>
-    <string name="pref_title_add_friends_to_messages">添加到通訊錄</string>
 </resources>

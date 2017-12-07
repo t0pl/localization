@@ -32,17 +32,6 @@
         <item>Vertical</item>
     </string-array>
 
-    <string-array name="entries_cursorblink_preference">
-        <item>Enable cursor blink</item>
-        <item>Disable cursor blink</item>
-    </string-array>
-
-    <string-array name="entries_cursorstyle_preference">
-        <item>Square</item>
-        <item>Underline</item>
-        <item>Long string</item>
-    </string-array>
-
     <string-array name="entries_fontsize_preference">
         <item>4 x 8 Pixel</item>
         <item>6 point type</item>
@@ -115,12 +104,6 @@
         <item>Word</item>
     </string-array>
 
-    <string name="list_select">
-        <item>Open with editor</item>
-        <item>Open with ...</item>
-         <item>Re-scan</item>
-    </string>
-
 
     <!-- These are the 'short' names for the control keys. They are used in the special keys dialog. -->
     <string-array name="control_keys_short_names">
@@ -146,26 +129,8 @@
         <item>None</item>
     </string-array>
 
-    <string-array name="screen_orientation_values" translatable="false">
-        <item>auto</item>
-        <item>landscape</item>
-        <item>portrait</item>
-    </string-array>
-
-    <string-array name="file_explorer_tab">
-        <item>Script</item>
-        <item>Project</item>
-    </string-array>
-
 
     <!-- Color themes -->
-    <string-array name="files_new">
-        <item>Blank file</item>
-        <item>Script</item>
-        <item>WebApp (Project)</item>
-        <item>ConsoleApp (Project)</item>
-        <item>KivyApp (Project)</item>
-    </string-array>
 
 
     <string-array name="color_theme_names">
@@ -210,58 +175,12 @@
     </string-array>
 
     <!-- End of lines -->
-    <string-array name="eol_names">
-        <item>Android / Linux / Unix</item>
-        <item>Windows / Symbian / Palm</item>
-        <item>Mac / iPhone</item>
-    </string-array>
-    <string-array name="eol_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 
     <!-- Recent files -->
-    <string-array name="max_undo_stack_values">
-        <item>10</item>
-        <item>25</item>
-        <item>50</item>
-        <item>100</item>
-        <item>200</item>
-        <item>500</item>
-    </string-array>
 
     <!-- Recent files -->
-    <string-array name="max_recent_files">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-    </string-array>
 
     <!-- Encoding -->
-    <string-array name="encoding_names">
-        <item>ASCII</item>
-        <item>Latin 1</item>
-        <item>UTF 8</item>
-    </string-array>
-    <string-array name="encoding_values">
-        <item>US-ASCII</item>
-        <item>ISO-8859-1</item>
-        <item>UTF-8</item>
-    </string-array>
 
     <string-array name="max_lines_num_with_syntax_values">
         <item>100</item>
@@ -270,13 +189,6 @@
         <item>1000</item>
         <item>2000</item>
     </string-array>
-    <string-array name="prices">
-        <item>$ 0.99</item>
-        <item>$ 1.99</item>
-        <item>$ 2.99</item>
-        <item>$ 3.99</item>
-        <item>$ 4.99</item>
-    </string-array>
 
     <string-array name="sku" translatable="false">
         <item>course_0.99</item>
@@ -284,5 +196,89 @@
         <item>course_2.99</item>
         <item>course_3.99</item>
         <item>course_4.99</item>
+    </string-array>
+
+    <string-array name="support_file_ext" translatable="false">
+        <item>py</item>
+        <item>txt</item>
+        <item>kv</item>
+        <item>html</item>
+        <item>htm</item>
+        <item>js</item>
+        <item>css</item>
+        <item>md</item>
+        <item>pyx</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="text_ext" translatable="false">
+        <item>py</item>
+        <item>txt</item>
+        <item>kv</item>
+        <item>html</item>
+        <item>htm</item>
+        <item>js</item>
+        <item>css</item>
+        <item>md</item>
+        <item>pyx</item>
+        <item>log</item>
+        <item>c</item>
+        <item>h</item>
+
+    </string-array>
+
+    <string-array name="syntax_ext" translatable="false">
+        <item>css</item>
+        <item>html</item>
+        <item>htm</item>
+        <item>js</item>
+        <item>json</item>
+        <item>py</item>
+        <item>xml</item>
+        <item>log</item>
+        <item>kv</item>
+        <item>pyx</item>
+        <item>pxd</item>
+    </string-array>
+
+    <string-array name="shortcut" translatable="false">
+        <item>tab</item>
+        <item>rtab</item>
+        <item>def</item>
+        <item>if</item>
+        <item>ef</item>
+        <item>el</item>
+        <item>for</item>
+        <item>imt</item>
+        <item>imf</item>
+        <item>clz</item>
+        <item>ret</item>
+        <item>:</item>
+        <item>\@</item>
+        <item>=</item>
+        <item>\"</item>
+        <item>\'</item>
+        <item>;</item>
+        <item>,</item>
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+        <item><![CDATA[<]]></item>
+        <item><![CDATA[>]]></item>
+        <item>(</item>
+        <item>)</item>
+        <item>[</item>
+        <item>]</item>
+        <item>{</item>
+        <item>}</item>
+        <item>#</item>
+    </string-array>
+
+    <string-array name="qpy3_zip" translatable="false">
+        <item>private31.mp3</item>
+        <item>private32.mp3</item>
+        <item>private33.mp3</item>
+        <item>public3.mp3</item>
     </string-array>
 </resources>

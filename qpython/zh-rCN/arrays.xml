@@ -32,17 +32,6 @@
         <item>竖屏</item>
     </string-array>
 
-    <string-array name="entries_cursorblink_preference">
-        <item>非闪烁光标</item>
-        <item>闪烁光标</item>
-    </string-array>
-
-    <string-array name="entries_cursorstyle_preference">
-        <item>方块</item>
-        <item>下划线</item>
-        <item>竖线</item>
-    </string-array>
-
     <string-array name="entries_fontsize_preference">
         <item>4 x 8 像素</item>
         <item>6 磅</item>
@@ -115,12 +104,6 @@
         <item>词本</item>
     </string-array>
 
-    <string name="list_select">
-        <item>在编辑器中打开</item>
-        <item>在.....打开</item>
-         <item>重新扫描</item>
-    </string>
-
 
     <!-- These are the 'short' names for the control keys. They are used in the special keys dialog. -->
     <string-array name="control_keys_short_names">
@@ -146,20 +129,8 @@
         <item>None</item>
     </string-array>
 
-    <string-array name="file_explorer_tab">
-        <item>脚本</item>
-        <item>项目</item>
-    </string-array>
-
 
     <!-- Color themes -->
-    <string-array name="files_new">
-        <item>Blank file</item>
-        <item>Script</item>
-        <item>WebApp (Project)</item>
-        <item>ConsoleApp (Project)</item>
-        <item>KivyApp (Project)</item>
-    </string-array>
 
 
     <string-array name="color_theme_names">
@@ -204,58 +175,12 @@
     </string-array>
 
     <!-- End of lines -->
-    <string-array name="eol_names">
-        <item>Android / Linux / Unix</item>
-        <item>Windows / Symbian / Palm</item>
-        <item>Mac / iPhone</item>
-    </string-array>
-    <string-array name="eol_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 
     <!-- Recent files -->
-    <string-array name="max_undo_stack_values">
-        <item>10</item>
-        <item>25</item>
-        <item>50</item>
-        <item>100</item>
-        <item>200</item>
-        <item>500</item>
-    </string-array>
 
     <!-- Recent files -->
-    <string-array name="max_recent_files">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-    </string-array>
 
     <!-- Encoding -->
-    <string-array name="encoding_names">
-        <item>ASCII</item>
-        <item>Latin 1</item>
-        <item>UTF 8</item>
-    </string-array>
-    <string-array name="encoding_values">
-        <item>US-ASCII</item>
-        <item>ISO-8859-1</item>
-        <item>UTF-8</item>
-    </string-array>
 
     <string-array name="max_lines_num_with_syntax_values">
         <item>100</item>

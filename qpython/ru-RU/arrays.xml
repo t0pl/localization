@@ -14,7 +14,7 @@
  * limitations under the License.
  -->
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
     <string-array name="entries_statusbar_preference">
         <item>Показать Status bar</item>
         <item>Скрыть Status bar</item>
@@ -30,17 +30,6 @@
         <item>Автоматически</item>
         <item>Горизонтальная</item>
         <item>Вертикальная</item>
-    </string-array>
-
-    <string-array name="entries_cursorblink_preference">
-        <item>Enable cursor blink</item>
-        <item>Disable cursor blink</item>
-    </string-array>
-
-    <string-array name="entries_cursorstyle_preference">
-        <item>Square</item>
-        <item>Underline</item>
-        <item>Long string</item>
     </string-array>
 
     <string-array name="entries_fontsize_preference">
@@ -210,58 +199,12 @@
     </string-array>
 
     <!-- End of lines -->
-    <string-array name="eol_names">
-        <item>Android / Linux / Unix</item>
-        <item>Windows / Symbian / Palm</item>
-        <item>Mac / iPhone</item>
-    </string-array>
-    <string-array name="eol_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 
     <!-- Recent files -->
-    <string-array name="max_undo_stack_values">
-        <item>10</item>
-        <item>25</item>
-        <item>50</item>
-        <item>100</item>
-        <item>200</item>
-        <item>500</item>
-    </string-array>
 
     <!-- Recent files -->
-    <string-array name="max_recent_files">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-    </string-array>
 
     <!-- Encoding -->
-    <string-array name="encoding_names">
-        <item>ASCII</item>
-        <item>Latin 1</item>
-        <item>UTF 8</item>
-    </string-array>
-    <string-array name="encoding_values">
-        <item>US-ASCII</item>
-        <item>ISO-8859-1</item>
-        <item>UTF-8</item>
-    </string-array>
 
     <string-array name="max_lines_num_with_syntax_values">
         <item>100</item>
@@ -270,19 +213,5 @@
         <item>1000</item>
         <item>2000</item>
     </string-array>
-    <string-array name="prices">
-        <item>$ 0.99</item>
-        <item>$ 1.99</item>
-        <item>$ 2.99</item>
-        <item>$ 3.99</item>
-        <item>$ 4.99</item>
-    </string-array>
 
-    <string-array name="sku" translatable="false">
-        <item>course_0.99</item>
-        <item>course_1.99</item>
-        <item>course_2.99</item>
-        <item>course_3.99</item>
-        <item>course_4.99</item>
-    </string-array>
 </resources>

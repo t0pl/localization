@@ -1,45 +1,20 @@
-<resources>
-
-    <string name="private1_version" translatable="false">1347438520.05</string>
-    <string name="private2_version" translatable="false">1347438543.05</string>
-    <string name="private3_version" translatable="false">1347438520.05</string>
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
 
     <string name="app_name">QPython</string>
-    <string name="nav_header_name" translatable="false">QPython</string>
-    <string name="nav_header_link" translatable="false">www.qpython.org</string>
     <string name="terminal">Терминал</string>
     <string name="library">Библиотека</string>
-    <string name="club">Клуб</string>
     <string name="recent">Недавние</string>
     <string name="script">Скрипт</string>
     <string name="project">Проект</string>
-    <string name="document">Документ</string>
-    <string name="forum">Форум</string>
-    <string name="wiki" translatable="false">Wiki</string>
-    <string name="read_from_QR">Считать через QR-код</string>
-    <string name="back_app">Нажмите ещё раз для выхода</string>
 
 
-    <string name="navigation_drawer_open">Открыть navigation drawer</string>
-    <string name="navigation_drawer_close">Закрыть navigation drawer</string>
     <string name="setting">Настройки</string>
-    <string name="console">Консоль</string>
     <string name="editor">Редактор</string>
-    <string name="program">Программа</string>
     <string name="community">Сообщество</string>
-    <string name="library_manager">Управление библиотеками</string>
 
-    <string name="setting_about">о проекте</string>
-    <string name="setting_update">Проверить</string>
-    <string name="setting_mark">Оценить!</string>
-    <string name="setting_back">Обратная связь</string>
-    <string name="setting_about_all">Взаимосвязь</string>
     <string name="more">Больше</string>
-    <string name="lib_manager">Управление библиотеками</string>
+    <string name="qpypi">библиотеками</string>
     <string name="sl4a_server">SL4A Сервер</string>
-    <string name="normal_program">Стандартное приложение</string>
-    <string name="qpypi" translatable="false">QPypi</string>
-    <string name="qpypi_up" translatable="false">QPYPI</string>
     <string name="internal_space">Сбросить хранилище</string>
     <string name="ftp_server">FTP сервер</string>
 
@@ -47,11 +22,9 @@
     <!---->
     <string name="application_terminal">Терминал</string>
     <string name="preferences">Настройки</string>
-    <string name="new_window">Открыть новое окно</string>
-    <string name="close_window">Закрыть окно</string>
+    <string name="new_window">Открыть новое терминал</string>
+    <string name="close_window">Закрыть терминал</string>
     <string name="window_list">Список окон</string>
-    <string name="prev_window">Прошлое окно</string>
-    <string name="next_window">Следующее окно</string>
     <string name="reset">Перезапустить терминал</string>
     <string name="send_email">Отправить email на…</string>
     <string name="special_keys">Особые ключи</string>
@@ -72,8 +45,6 @@
 
     <string name="window_title">Окно %1$d</string>
 
-    <string name="service_notify_text">Сессия активна</string>
-
     <string name="process_exit_message">Сессия не активна</string>
 
     <!-- Preference dialog -->
@@ -90,14 +61,6 @@
     <string name="title_orientation_preference">Ориентация экрана</string>
     <string name="summary_orientation_preference">Выберите ориентацию экрана</string>
     <string name="dialog_title_orientation_preference">ориентация экрана</string>
-
-    <string name="title_cursorstyle_preference">Стиль курсора</string>
-    <string name="summary_cursorstyle_preference">Выберите стиль курсора</string>
-    <string name="dialog_title_cursorstyle_preference">Стиль курсора</string>
-
-    <string name="title_cursorblink_preference">Отблеск курсора</string>
-    <string name="summary_cursorblink_preference">Выберите отблеск курсора</string>
-    <string name="dialog_title_cursorblink_preference">Отблеск курсора</string>
 
     <string name="text_preferences">Текст</string>
 
@@ -119,11 +82,11 @@
     <string name="dialog_title_backaction_preference">Поведение кнопки назад</string>
 
     <string name="title_controlkey_preference">Клавиша Ctrl</string>
-    <string name="summary_controlkey_preference">Выберите активатор клавиши Ctrl</string>
+    <string name="summary_controlkey_preference">Выберите поведение клавиши Ctrl</string>
     <string name="dialog_title_controlkey_preference">Клавиша Ctrl</string>
 
     <string name="title_fnkey_preference">Клавиша Fn</string>
-    <string name="summary_fnkey_preference">Выберите активатор клавиши Fn</string>
+    <string name="summary_fnkey_preference">Выберите поведение клавиши Fn</string>
     <string name="dialog_title_fnkey_preference">Клавиша Fn</string>
 
     <string name="title_ime_preference">Способ ввода</string>
@@ -143,10 +106,10 @@
     <string name="summary_termtype_preference">Установить оболочку терминала</string>
     <string name="dialog_title_termtype_preference">Тип терминала</string>
 
-    <string name="title_close_window_on_process_exit_preference">Закрывать окно при выходе</string>
-    <string name="summary_close_window_on_process_exit_preference">Закрывать окно при выходе</string>
+    <string name="title_close_window_on_process_exit_preference">Закрывать терминал при выходе</string>
+    <string name="summary_close_window_on_process_exit_preference">Закрывать терминал при выходе</string>
 
-    <string name="title_verify_path_preference">Проверить PATH</string>
+    <string name="title_verify_path_preference">проверить PATH</string>
     <string name="summary_verify_path_preference">Очистить неправильный PATH</string>
 
     <string name="title_do_path_extensions_preference">Разрешить расширение PATH</string>
@@ -164,18 +127,11 @@
     <string name="control_key_dialog_fn_text">FNKEY 1..9 : F1-F9\nFNKEY 0 : F10\nFNKEY W : Up\nFNKEY A : Left\nFNKEY S : Down\nFNKEY D : Right\nFNKEY P : PageUp\nFNKEY N : PageDown\nFNKEY T : Tab\nFNKEY L : | (столбик)\nFNKEY U : _ (нижнее подчёркивание)\nFNKEY E : Control-[ (ESC)\nFNKEY X : Delete\nFNKEY I : Insert\nFNKEY H : Home\nFNKEY F : End\nFNKEY . : Control-\\\n</string>
     <string name="control_key_dialog_fn_disabled_text">Fn key unset</string>
 
-    <string name="confirm_window_close_message">Закрыть окно?</string>
-
-    <string name="perm_run_script">Запустить в терминале</string>
-    <string name="permdesc_run_script">Разрешить приложению открыть новое окно и запустить все команды в сети/хранилище</string>
-    <string name="perm_append_to_path">Добавить команду в терминал</string>
-    <string name="permdesc_append_to_path">Разрешить приложению добавлять addiction команду</string>
-    <string name="perm_prepend_to_path">Переопределение существующих команд в терминале</string>
-    <string name="permdesc_prepend_to_path">Разрешить переопределение существующих команд в терминале</string>
+    <string name="confirm_window_close_message">Закрыть терминал?</string>
 
     <string name="email_transcript_subject">Копия терминала</string>
     <string name="feedback_email_subject">Обратная связь - QPython</string>
-    <string name="email_transcript_chooser_title">Отправить копию терминала через…</string>
+    <string name="email_transcript_chooser_title">Обратная связь ...</string>
     <string name="email_transcript_no_email_activity_found">Не удалось найти подходящее приложение для отправки E-mail</string>
 
     <string name="alt_sends_esc">Использовать Alt как ESC</string>
@@ -185,17 +141,12 @@
     <string name="title_mouse_tracking_preference">Отправить событие мыши</string>
     <string name="summary_mouse_tracking_preference">События касания и прокрутки игнорируются?</string>
 
-    <string name="dialog_title_menu">Меню</string>
-    <string name="dialog_item_qrcode">Сканировать QR-код</string>
-    <string name="dialog_item_script">Запкстить скрипт</string>
-    <string name="dialog_item_project">Запустить проект</string>
-
     <string name="dialog_title_script">скрипт</string>
     <string name="dialog_title_project">проект</string>
 
 
     <string name="title_use_keyboard_shortcuts">Use Keyboard Shortcuts</string>
-    <string name="use_keyboard_shortcuts_summary_on">Ctrl-Tab: пролистнуть окно, Ctrl-Shift-N: новое окно, Ctrl-Shift-V: вставить.</string>
+    <string name="use_keyboard_shortcuts_summary_on">Ctrl-Tab: пролистнуть терминал, Ctrl-Shift-N: новое терминал, Ctrl-Shift-V: вставить.</string>
     <string name="use_keyboard_shortcuts_summary_off">Сокращения для клавиатуры отключены.</string>
     <string name="help">Помощь</string>
     <string name="activity_term_here_title">Называть здесь</string>
@@ -229,155 +180,22 @@
     <string name="help_url">http://www.qpython.org</string>
 
     <string name="new_file">Новый файл</string>
-    <string name="redo">Вернуть</string>
-    <string name="save_all">Сохранить всё</string>
-    <string name="recent_files">Недавний файл</string>
-    <string name="line_separator">разделитель строк</string>
-    <string name="select_all">Выбрать всё</string>
-    <string name="duplication_line">Duplication line</string>
-    <string name="find_in_files">Найти в файлах</string>
-    <string name="jump_to_start">Перейти в начало</string>
-    <string name="jump_to_end">Перейти в конец</string>
-    <string name="goto_line">Перейти к строке</string>
-    <string name="back">Назад</string>
-    <string name="forward">Вперёд</string>
-    <string name="document_info">Информация о файле</string>
-    <string name="symbol">Символ</string>
-    <string name="insert_color">Цвет вставки</string>
-    <string name="highlight_language">подсветка синтаксиса</string>
-    <string name="encoding">Кодировка</string>
     <string name="read_only">Только чтение</string>
-    <string name="insert_datetime">Установить время</string>
-    <string name="edit_mode">Режим редактирования</string>
-    <string name="run">Запуск</string>
     <string name="file">Файловый менеджер</string>
-    <string name="other">Ещё</string>
-    <string name="view">Просмотр</string>
-    <string name="edit">Редактировать</string>
-    <string name="new_filename">Без названия %d</string>
-    <string name="confirm_save_msg">Файл %s не сохранён. Сохранить его до выхода?</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
-    <string name="cannt_access_file">Файл %s недоступен</string>
-    <string name="cannt_read_file">Невозможно прочитать файл: %s</string>
     <string name="ok">ОК</string>
-    <string name="read_file_exception">Вотвремя чтения файла возникла ошибка</string>
-    <string name="init_syntax_msg">Инициализация подсветки синтаксиса…</string>
-    <string name="init_syntax_error">Ошибка при инициализации подсветки синтаксиса. Пожалуйста, проверьте, достаточно ли места на накопителе.</string>
-    <string name="init_build_index_error">Ошибка индексациии</string>
     <string name="close">Закрыть</string>
-    <string name="convert_wrap_char">Конвертировать отступы</string>
-    <string name="path_x">Путь：%s</string>
-    <string name="char_x">Число символов：%d</string>
-    <string name="word_x">Число слов：%d</string>
-    <string name="line_number_x">Число строк：%d</string>
-    <string name="encoding_x">Кодировка：%s</string>
-    <string name="tab">Отступ</string>
     <string name="no_change">Нет изменений</string>
-    <string name="save_success">Успешное сохранение</string>
-    <string name="find_label">Что искать:</string>
-    <string name="replace_label">Заменить на:</string>
-    <string name="case_sensitive">Чувствительность к регистру</string>
-    <string name="whole_words_only">Только целые слова</string>
-    <string name="regex">Регулярное выражение</string>
-    <string name="in_path">В пути:</string>
-    <string name="recursively">Рекурсивно</string>
-    <string name="cannot_be_empty">не может быть нулём</string>
-    <string name="path_not_exists">Путь не существует</string>
-    <string name="find_not_found">Не могу ничего найти</string>
-    <string name="previous_occurrence">Искать позади</string>
-    <string name="next_occurrence">Искать впереди</string>
-    <string name="replace_all">Заменить всё</string>
-    <string name="searching">Поиск…</string>
-    <string name="select_lang_to_highlight">Выберите язык для подсветки</string>
-    <string name="more_menu">More menu</string>
-    <string name="reopen_with_encoding">Открыть заново с этой кодировкой</string>
-    <string name="save_as_file_first">Пожалуйста созраните файл</string>
-    <string name="document_changed">Файл уже изменён</string>
-    <string name="give_up_document_changed_message">Файл уже изменён. Повторное открытие удалит изменения.</string>
-    <string name="preview_in_browser">Просмотр в браузере</string>
-    <string name="use_sl4a_in_background_run_script">Использую SL4A для запуска скрипта в фоновом режиме</string>
-    <string name="use_sl4a_in_terminal_run_script">Использую SL4A для запуска скрипта в терминале</string>
-    <string name="please_save_as_file_first">Необходимо, сохранить файл</string>
-    <string name="run_fail_message">Не удалось сослаться на другое приложение</string>
-    <string name="settings">Настройки</string>
-    <string name="font">Шрифт</string>
-    <string name="default_value">Стандартное значение</string>
-    <string name="font_size">Размер шрифта</string>
-    <string name="cursor_width">Ширина курсора</string>
-    <string name="touch_to_adjust_text_size">Нажмите, чтобы выбрать размер текста</string>
-    <string name="word_wrap_in_editor">Переносится автомптически</string>
-    <string name="show_linenumber">Показать номер строки</string>
-    <string name="show_whitespace">Показать пробел</string>
-    <string name="auto_indent">Автоотступ</string>
-    <string name="insert_space_for_tab">Использовать пробелы вмосто табов</string>
-    <string name="indent_size">Размер отступа</string>
-    <string name="highlight_and_theme">Подсветка и тема</string>
-    <string name="highlight_the_file_size_limit">Установка лимита подсветки размера файла</string>
-    <string name="select_theme">Выберите тему</string>
-    <string name="auto_save">Сохранять файлы автоматичнски</string>
-    <string name="remember_last_opened_files">Помнить последние открытые файлы</string>
-    <string name="remember_last_opened_files_summary">Помнить последний открытый файл</string>
-    <string name="screen_orientation">Ориентация экрана</string>
-    <string name="keep_screen_on">Держать экран включённым</string>
-    <string name="auto_capitalize">Автоматический верхний регистр</string>
     <string name="feedback">Обратная свзяь</string>
-    <string name="donate">Пожертвовать</string>
-    <string name="help_translate">Помогите нам с переводом</string>
     <string name="about">О приложении</string>
-    <string name="enable_highlight">Включить подсветку синтаксиса</string>
-    <string name="version_x">Версия：%s</string>
-    <string name="need_to_enable_read_storage_permissions">Необходимо разрешение для доступа к хранилищу</string>
     <string name="file_not_exists">Файл не существует</string>
-    <string name="cannt_handle_intent_x">Не могу обработать причину：%s</string>
-    <string name="handle_intent_x_error">Возникла ошибка при обработке：%s </string>
-    <string name="hex_color_char">#</string>
-    <string name="color_R">R:</string>
-    <string name="color_G">G:</string>
-    <string name="color_B">B:</string>
-    <string name="verify_sign_failure">Вы используете неофициальное приложение. Пожалуйста, посетите https://github.com/jecelyin/920-text-editor-v2/releases и установите официальную версию</string>
-    <string name="press_again_will_exit">Нажмите \'назад\' ещё раз для выхода</string>
-    <string name="find_replace">Найти/Заменить</string>
-    <string name="find_title">\"%s\" Найти</string>
-    <string name="zero_matches">0 совпадений</string>
-    <string name="chooser_browser">Выбрать браузер</string>
-    <string name="find_or_replace">Найти/Заменить…</string>
-    <string name="other_application">Другое приложение…</string>
-    <string name="chooser_application">Выберите приложение</string>
-    <string name="editor_create_unknown_exception">Возникла неизвестная ошибка при открытии редактора</string>
-    <string name="convert_to_uppercase">Конвертировать в верхний регистр</string>
-    <string name="convert_to_lowercase">Конвертировать в нижний регистр</string>
-    <string name="duplication_text">Дупликация текста</string>
-    <string name="tab_size">Размер отступа</string>
-    <string name="new_version_available">Доступна новая версия</string>
-    <string name="install">Установить</string>
-    <string name="new_version_update_content">Последняя версия: %1$s\n\nЧто нового:\n%2$s</string>
-    <string name="download_progress">Загрузка：%1$d%%</string>
-    <string name="download_failure_x">Загрузка не удалась：%s</string>
-    <string name="start_download">Загрузка началась</string>
-    <string name="auto_check_updates">Проверять обновления автоматически</string>
-    <string name="cannt_download">Не удаётся загрузить</string>
-    <string name="readonly_mode_not_support_this_action">Режим \'Только чтение\' не поддерживает это действие</string>
-    <string name="x_text_replaced">%d текст был заменён</string>
     <string name="enable_root">Включён</string>
     <!--<string name="my_name">作者：彭春瑜</string>-->
-    <string name="my_email"><![CDATA[Email：<a href="mailto:jecelyin@gmail.com">jecelyin@gmail.com</a>]]></string>
-    <string name="project_url"><![CDATA[URL：<a href="https://github.com/jecelyin/920-text-editor-v2/">https://github.com/jecelyin/920-text-editor-v2/</a>]]></string>
     <!--<string name="qq_group">QQ群：87272821</string>-->
-    <string name="license"><![CDATA[Copyright (C) 2016 Jecelyin Peng,\n\n920 Text Editor open source software is licensed under the Apache License 2.0]]></string>
-    <string name="open_with_external_browser">Открыть внешним браузером</string>
-    <string name="contact_email_optional">Email для связи</string>
-    <string name="with_error_logs">Логи ошибок</string>
-    <string name="content">Содержимое</string>
     <string name="send">Отправить</string>
-    <string name="feedback_content_length_must_be_greater_than_x_char">Содержимое  отзыва должно быть длинней %d символов</string>
-    <string name="feedback_submit_error_x">Не удалось отправить сообщение：%s</string>
-    <string name="submit_success">Отправлено</string>
-    <string name="alert">внимание</string>
-    <string name="no_find_img">Не удалось получить инфоомацию из QR-кода</string>
     <string name="no_camera">Не удаётся подключиться к камере. Проверьте соответствующее разрешение для приложения.</string>
     <string name="no_storage">Нет разрешения для доступа к хранилищу</string>
-    <string name="list_alert">QR-код сканирован</string>
     <plurals name="x_text_replaced">
         <item quantity="zero">0 найдено</item>
         <item quantity="other">%d текст заменён</item>
@@ -416,12 +234,7 @@
     </string-array>
 
 
-    <string name="recent_download">Уже загружено</string>
     <array name="library">Net библиотека</array>
-
-    <string name="load_failed">Загрузка не удалась. Нажмите для повтора</string>
-    <string name="download_error">Загрузка не удалась. Нажмите сюда для повтора</string>
-    <string name="download">загрузка</string>
 
 
     <string-array name="tab_string">
@@ -430,97 +243,48 @@
     </string-array>
 
 
-    <string name="private_version">10000</string>
     <string name="public_version">10000</string>
     <string name="pref_initialcommand_default_qpython">python</string>
-    <string name="use_qpython_run_script">Запустить скрипт в qpython</string>
     <string name="qpy_app">QPY</string>
     <string name="local_app">Локальное приложение</string>
     <string name="task">Задача</string>
     <string name="root_mode">Root режим</string>
-    <string name="lib">Библиотека</string>
-    <string name="default_program">Приложение по умолчанию</string>
     <string name="star_it">Оценить</string>
     <string name="disable_root">Отключён</string>
     <string name="http_qpypi_qpython_org">https://pypi.python.org/simple/</string>
     <string name="add">добавить</string>
-    <string name="component">Компонент</string>
     <string name="sl4a_running">SL4A сервер запущен</string>
     <string name="sl4a_un_running">SL4A сеовер не активен</string>
     <string name="service_toggle">Переключить сервер</string>
     <string name="qpy_description">QPython это движок для скриптов, запускаемый на устройствах Android, таких, как телефоны и планшеты.</string>
-    <string name="reinstall">Переустановить</string>
-    <string name="attr">Принадлежность</string>
-    <string name="uninstall">Удалить</string>
     <string name="warning">Предупреждение</string>
     <string name="reset_warning">Сброс удалит все данные и загруженные библиотеки. Вы уверены, что хотите продолжить?</string>
     <string name="downloading">Библиотека</string>
-    <string name="private_lib">Библиотека во внутренней памяти</string>
     <string name="location">Расположение</string>
 
 
-    <string name="app_label">QEdit</string>
-
-    <string name="app_name_full">QEdit (Редактор текста)</string>
-
     <!--  -->
-    <string name="permission_internal">QEdit разрешение для доступа к хранилищу</string>
 
     <!-- Titles -->
     <string name="title_editor">QEdit - %1$s</string>
     <string name="title_editor_dirty">QEdit - %1$s *</string>
     <string name="title_editor_readonly">QEdit - [%1$s]</string>
-    <string name="title_save_as">QEdit - Сохранить как … </string>
-    <string name="title_open">QEdit - Открыть файл</string>
 
-    <string name="title_open_recent">QEdit - Открыть недавний</string>
     <string name="title_settings">QEdit - Настройки</string>
-    <string name="title_about">QEdit - О приложении…</string>
-    <string name="title_font">QEdit - Шрифт</string>
 
     <!-- Config screen strings -->
     <string name="config_cat_display">Дисплей</string>
-    <string name="config_cat_other">Другое</string>
-    <string name="config_cat_save">Сохранение</string>
-    <string name="config_cat_undo">Отмена</string>
-    <string name="config_cat_search">Поиск</string>
-    <string name="config_cat_misc">Разное</string>
     <string name="config_title_line_numbers">Показывать номера строк</string>
     <string name="config_title_word_wrap">Перенос слов</string>
     <string name="config_title_font">Изменить шрифт</string>
     <string name="config_title_text_size">Размер текста</string>
     <string name="config_title_color_theme">Цветовая схема</string>
-    <string name="config_title_end_of_lines">Конец строк</string>
-    <string name="config_title_max_recent">Максимум недавних файлов</string>
-    <string name="config_title_search_wrap">Поиск переноса</string>
-    <string name="config_title_search_match_case">Поиск совпадений</string>
-    <string name="config_title_encoding">Кодировка</string>
     <string name="config_title_scroll_fling">Бросьте для быстрой прокрутки</string>
-    <string name="config_title_allow_undo_stack">Разрешить отмену</string>
-    <string name="config_title_max_undo_stack">Максимальное количество отмен</string>
-    <string name="config_title_back_to_undo">Использовать кнопку \'назад\' для отмены последних изменений</string>
-    <string name="config_title_use_home_page">Использовать стандартный файл</string>
-    <string name="config_title_auto_save">Автосохранение</string>
-    <string name="config_title_auto_save_overwrite">Перезаписать существующие файлы</string>
-    <string name="config_summary_auto_save">Автоматически сохраняет изменённые файлы при переходе в фоновый режим</string>
     <string name="config_summary_line_numbers">Отображать номера строк слева</string>
     <string name="config_summary_word_wrap">Строки будут делиться, если они не умещаются на экран</string>
     <string name="config_summary_scroll_fling">Выключите, если у вас проблемы с производительностью</string>
-    <string name="config_summary_use_home_page">Выберите файл, который будет открываться при запуске QEdit из домашнего экрана</string>
-    <string name="config_summary_auto_save_overwrite_on">Автосохранение будет перезаписывать существующие файлы</string>
-    <string name="config_summary_auto_save_overwrite_off">Автосохранение будет работать только с новыми файлами</string>
 
     <!-- Options Menu in QEdit -->
-    <string name="menu_new">Новый</string>
-    <string name="menu_open">Открыть</string>
-    <string name="menu_open_recent">Недавние файлы</string>
-    <string name="menu_save">Сохранить</string>
-    <string name="menu_save_as">Сохранить как</string>
-    <string name="menu_settings">Настройки</string>
-    <string name="menu_about">О приложении</string>
-    <string name="menu_search">Поиск</string>
-    <string name="menu_undo">Отменить</string>
-    <string name="menu_quit">Выход</string>
 
     <!-- Misc UI strings -->
     <string name="ui_save_text">"Хотите сохранить файл? \nНесохранённые изменения будут потеряны."</string>
@@ -530,7 +294,6 @@
     <string name="ui_cancel">Отмена</string>
     <string name="ui_hint_file_name">Имя файла</string>
     <string name="ui_hint_search">Поиск</string>
-    <string name="ui_art_licence">Артистическая лицензия</string>
     <string name="ui_history">История</string>
     <string name="ui_force_read_only">Открыть только для чтения</string>
     <string name="about_content">QEdit это текстовый редактор для планшетов и телеыонов на платформе Android. Кроме редактирования теста, он может сделать разработку на python / HTML on гораздо более интересной и очень удобной.</string>
@@ -538,43 +301,19 @@
     <!-- Misc Strings -->
     <string name="lorem_ipsum">"QEdit отличный редактор кода."</string>
 
-    <string name="info_select">Открыть</string>
-    <string name="info_go">Запуск</string>
-    <string name="info_help">Помощь</string>
-    <string name="info_recent">Недавние файлы…</string>
-
-    <string name="cannot_edit">Не могу редактировать</string>
-    <string name="cannot_save">Не могу сохранить</string>
-    <string name="cannot_empty">Содержимое файла не должно быть пустым</string>
-
-    <string name="confirm_save">Подтвердить перезапись</string>
-    <string name="info_new">Новый</string>
-    <string name="dir_new">Новая папка</string>
-    <string name="dir_exists">Папка существует</string>
-    <string name="cannot_foward">Не могу вернуться</string>
     <string name="file_exists">Файл существует. Пожалуйста, измените название</string>
     <string name="search_hint"></string>
 
     <string name="video_src">Видео {0}</string>
     <string name="play_video">Запустить видео</string>
     <string name="no_videos_found">На странице не найдены видео</string>
-    <string name="play_from_website">Видео с сайта</string>
     <string name="pls_install_a8_play">Пожалуйста, установите A8 Video Player</string>
     <string name="download_as">Загрузить и сохранить как</string>
     <string name="info_browser">QBrowser</string>
-    <string name="pls_open_file">Нет файлов</string>
-
-    <string name="support_intro">Это не файл Python / HTML</string>
-    <string name="pls_install_ext_plg">Пожалуйста, устновите плагин QPython</string>
 
     <!--  added by kyle -->
-    <string name="find">найти</string>
     <string name="share">Расшарить</string>
-    <string name="line_picker_title">Перейти к строке</string>
-    <string name="line_picker_hint">Номер строки меньше, чем </string>
-    <string name="code_snippets">Фрагменты кода</string>
     <string name="save_as_snippets">Сохранить как фоагмент</string>
-    <string name="snippet_confirm">Фрагменты существуют. Перезаписать?</string>
     <string name="snippet_exist">Фрагменты существуют. Пожалуйста, измените название.</string>
     <string name="save_as_snippets_1">Фрагменты были сохранены как: </string>
     <string name="fail_to_insert">Не удалось вставить фрагмент</string>
@@ -582,30 +321,15 @@
     <string name="max_lines_num_with_syntax_title">Авто-подсветка строк</string>
     <string name="max_lines_num_with_syntax_summary">Авто-подсветка при количестве строк меньше, чем %s</string>
     <string name="qedit_not_support">QEdit поддерживает просмотр/запуск форматов\n.py, .sh, .lua, .html, .md.</string>
-    <string name="qedit_save_first">Пожалуйста, сохраните файл</string>
-    <string name="private4qe_version" translatable="false">100.00</string>
 
     <string name="pls_install_lua">Пожалуйста, установите QLua для запуска скрипта</string>
     <string name="pls_install_qpy">Пожалуйста, установите QPython для запуска скрипта</string>
     <string name="info_snippets">Snippets</string>
-    <string name="info_project_type">Новый …</string>
-    <string name="file_new">Новый Скрипт</string>
-    <string name="script_name_cannot_empty">Название Скрипта не может быть пустым</string>
-    <string name="project_new">Новый Проект</string>
-    <string name="project_name_cannot_empty">Введите название Проекта</string>
-    <string name="project_has_been_created">Проект сохранён. Вы редактируете {0}</string>
-    <string name="script_has_been_created">Скрипт создан. Вы редактируете {0}</string>
-    <string name="script_name_should_be_py_ext">Название Скрипта должно оканчиваться на ".py"</string>
-
-    <string name="qedit_loading">QEdit запускается…</string>
 
     <string name="ui_ok">ОК</string>
-    <string name="ui_yes">ДА</string>
-    <string name="ui_no">Нет</string>
     <string name="ui_contact_title">Контакты</string>
     <string name="ui_licence_title">Лицензия</string>
     <string name="ui_mail">support@qpython.org</string>
-    <string name="ui_feedback_mail" translatable="false">support@qpython.org</string>
     <string name="ui_choose_mail">Открыть почту, используя &#8230; </string>
     <string name="ui_market_url">"https://market.android.com/developer?pub=Xavier+Gouchet"</string>
     <string name="ui_market_app_url">"https://play.google.com/store/apps/details?id=%s"</string>
@@ -614,7 +338,7 @@
     <string name="ui_feedback">"Вы можете связаться со мной для обсуждения любого бага или новой фнкции. "</string>
     <string name="ui_licence_content">"Это программное обеспечение предоставляется 'как есть', без каких-либо гарантий явно выраженных или подразумеваемых. Ни при каких обстоятельствах автор не несет ответственности за любой ущерб, возникший в результате использования этого программного обеспечения."</string>
     <string name="ui_art_licence_title">Художественная лицензия</string>
-    <string name="ui_art_licence_content">"Все иконки для этого приложения были созданы и принадлежат его автору: Xavier Gouchet (android@xgouchet.fr)."</string>
+    <string name="ui_art_licence_content">"Все иконки для этого приложения были созданы и принадлежат его автору: QPython."</string>
     <string name="ui_whats_new">"Что нового"</string>
     <string name="save">Сохранить</string>
     <string name="save_as">Сохранить как</string>
@@ -631,28 +355,15 @@
     <string name="error_dont_kn">Возникла ошибка.</string>
     <string name="project_name">Имя проекта</string>
     <string name="jump_to">Переместиться к</string>
-    <string name="line_too_large">Не могу найти строку</string>
     <string name="choose_ttf">Выберите файл шрифта(.ttf)</string>
     <string name="explorer">Файловый менеджер</string>
-    <string name="undo">Отменить</string>
     <string name="new_script">Новый скрипт</string>
     <string name="enter_name_hint">Ваедите имя скрипта</string>
 
-    <string name="delete">Улалить</string>
-    <string name="deleteText">Удалить текст</string>
     <string name="paste">Вставить</string>
-    <string name="replace">Заменить</string>
-    <string name="textSelectionCABTitle">Выбрать текст</string>
-    <string name="selectAll">Выбрать всё</string>
-    <string name="cut">Вырезать</string>
-    <string name="copy">Копировать</string>
-    <string name="install_with_python_s_pypi">УСТАНОВИТЬ, ИСПОЛЬЗУЯ PYTHON PYPI</string>
+    <string name="install_with_python_s_pypi">УСТАНОВИТЬ, ИСПОЛЬЗУЯ PYPI PYTHON\'А</string>
     <string name="py_pi">Вы можете установить или обновить пакеты Python для платформы андроид через pypi.python.org</string>
     <string name="download_fail">Не удалось загрузить</string>
-    <string name="download_success">Загружено</string>
-    <string name="key_root" translatable="false">root</string>
-    <string name="key_sl4a" translatable="false">sl4a</string>
-    <string name="key_qpypi" translatable="false">qpypi</string>
     <string name="key_reset">reset_storage</string>
     <string name="key_ftp_state">running_state</string>
     <string name="key_username">username</string>
@@ -664,8 +375,7 @@
     <string name="key_about">about</string>
     <string name="dir_not_valid">Недоступная директория</string>
     <string name="already_newest">Уже последняя</string>
-    <string name="share_text">QPython (Play 1.3.3) это движок скриптов, работающий на устройствах Android, таких как телефон или планшет. Он включает в себя интерпретатор Python, консоль, редактор, библиотеку SL4A для Android, что позволяет вашему устройству Android работать с Python\'ом http://qpython.com/privacy.html</string>
-    <string name="privacy_html" translatable="false">http://qpython.com/privacy.html</string>
+    <string name="share_text">QPython это движок скриптов, работающий на устройствах Android, таких как телефон или планшет. Он включает в себя интерпретатор Python, консоль, редактор, библиотеку SL4A для Android, что позволяет вашему устройству Android работать с Python\'ом http://qpython.com/privacy.html</string>
     <string name="new_folder">Новая папка</string>
     <string name="folder_name">Название папки</string>
     <string name="untitled_folder">untitled folder</string>
@@ -679,35 +389,29 @@
     <string name="rename_fail">Не удалось переименовать</string>
     <string name="delete_fail">Не удалось удалить</string>
     <string name="runtime_log">Лог: %s</string>
+    <string name="log_title">Лог</string>
+
     <string name="fedback_mail">[Обоатная связь]\n\n</string>
-    <string name="log" translatable="false">Log</string>
     <string name="date_format">[ %s ]</string>
-    <string name="log_format" translatable="false">%s.log</string>
     <string name="not_root_yet">Устройство ещё не рутировано</string>
     <string name="download_apk">Загрузить APK?</string>
     <string name="download_apk_hint">Загрузка может быть платной, если вы не используете WIFI</string>
     <string name="downloading_new_apk">Загрузка нового пакета</string>
-    <string name="newest">Уже последняя</string>
-    <string name="cur_ver">Текущая версия:</string>
     <string name="checking_update">Проверка обновлений</string>
     <string name="run_bg_title">Запустить в фоновом режиме</string>
     <string name="scan">Сканировать</string>
+    <string name="read_script_from_qrcode">Чтение кода с QRCode</string>
+
     <string name="course">Курсы</string>
     <string name="lost_connect">Потеряно соединение</string>
     <string name="featured_courses">Курсы</string>
     <string name="programs">Программы</string>
-    <string name="empty_notification">Ошибка-Пустое сообщение</string>
-    <string name="qweb" translatable="false">org.qpython.qpy.main.activity.QWebViewActivity</string>
-    <string name="notification_default_type" translatable="false">in</string>
-    <string name="welcome_to_our_course_center">Добро подаловать в наш центр курсов!</string>
-    <string name="course_describe">Здесь вы найдёте множество курсов, которые научат вас профессионально использовать QPython и различные тонкости в python.</string>
     <string name="open_gl2_is_not_supported">OpenGL2 не поддерживается</string>
     <string name="unable_extract">Невозможно извлечь файлы python</string>
     <string name="get_setting_data_fail">Не удалось получить данные ностроек</string>
     <string name="terminal_bg_hint">Оставить терминал работать в фоновом режиме?</string>
     <string name="thanks">СПАСИБО!</string>
-    <string name="extra_pypi">Дополнительный Pypi</string>
-    <string name="v_2_0_0">v 2.0.0</string>
+    <string name="extra_pypi">Установить PYPI</string>
     <string name="already_newest_current_version">Установлена последняя версия. Номер версии: </string>
     <string name="reward">Reward</string>
     <string name="oops_seems_like_your_net_have_some_trouble">Ой! \n Похоже, у вас пробелмы с сетью…</string>
@@ -718,42 +422,27 @@
     <string name="reset_suc">Успешный перезапуск</string>
     <string name="reset_hint">Эта операция будет актовной только после перезапуска</string>
     <string name="restart">Перезапуск</string>
-    <string name="key_qpy">qpy</string>
-    <string name="qpy_server">Сервер QPy</string>
-    <string name="qpy_not_running">Сервео QPy не активен</string>
-    <string name="qpy_running">Сервер QPy запущен</string>
     <string name="fail_resume_console">Не удалось восстановить консоль</string>
     <string name="failed_bind_term">Не удалось забиндить TermService!</string>
     <string name="console_running">Консоль QPython запущена</string>
     <string name="qpy_console">Консоль QPython</string>
-    <string name="level">уровень %s</string>
     <string name="recommend">Рекомендованное</string>
     <string name="newest_course">Последнее</string>
-    <string name="course_detail">Информация о курсе</string>
-    <string name="coming_soon">Coming soon :)</string>
-    <string name="login_with_google">Авторизироваться через Google</string>
     <string name="best_python_development_ide_non_mobile">Лучшая мобильная IDE\n для разработки на Python</string>
     <string name="sign_in_with_google">Войти через Google</string>
     <string name="by_signing_in_you_agree_to_out_privacy_policy_term_of_service"><![CDATA[By signing in you agree to out privacy policy & term of service]]></string>
-    <string name="commonly_used">Часто используется</string>
     <string name="logo">лого</string>
     <string name="copy_hint">Скопируйте в редактор, чтобы запустить</string>
-    <string name="share_to">Отправить</string>
     <string name="my_scripts">Мои скрипты</string>
-    <string name="bookmark">Закладки</string>
     <string name="my_share">Моё расшаренное</string>
     <string name="snippet">Фрагмент</string>
     <string name="gist_title">Gist заголовок</string>
     <string name="description">Описание</string>
-    <string name="commit_message">Описание коммита</string>
-    <string name="desc_text_count">%s/120</string>
     <string name="too_long_hint">Текст должен включать 140 или меньше символов.</string>
     <string name="enter_snippet">Введите имя фрагмента</string>
     <string name="welcome_s">Приветствую, <![CDATA[<font color="#4BAC07"><u>%s</u></font>]]></string>
     <string name="login"><u>войти</u></string>
     <string name="auth_failed">Неудачная аторизация.</string>
-    <string name="my_programs">Мои программы</string>
-    <string name="my_favorite">Моё избранное</string>
     <string name="log_out">выйти</string>
     <string name="me">Я</string>
     <string name="grant_storage_hint">Необходимо получить разрешение для доступа к хранилищу.</string>
