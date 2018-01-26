@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="toast_recent_files_invalid">"File doesn't exist anymore, removing from recent list."</string>
-    <string name="toast_recent_files_deleted">File deleted from recent list</string>
-    <string name="toast_intent_invalid_uri">Unable to open the file, URI is invalid</string>
-    <string name="toast_intent_illegal">Unable to open the file</string>
-    <string name="toast_activity_open">Unable to load the file browser</string>
-    <string name="toast_memory_open">Unable to open the file, not enough memory</string>
+    <string name="toast_recent_files_invalid">"ファイルが見つかりませんでした。最近使ったファイルの項目から削除します。"</string>
+    <string name="toast_recent_files_deleted">最近使ったファイルの項目から削除しました。</string>
+    <string name="toast_intent_invalid_uri">ファイルが開けません。URIが不正です。</string>
+    <string name="toast_intent_illegal">ファイルが開けません。</string>
+    <string name="toast_activity_open">ファイルブラウザを読み込めません。</string>
+    <string name="toast_memory_open">メモリ不足のため、ファイルが開けません。</string>
     <string name="toast_open_error">Unable to open the file (maybe the file is too big, or corrupted)</string>
     <string name="toast_save_null">Unable to save, path is null</string>
     <string name="toast_save_temp">Unable to save to temp file</string>

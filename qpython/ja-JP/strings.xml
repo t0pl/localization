@@ -305,35 +305,35 @@
     <string name="ui_market_app_url">"https://play.google.com/store/apps/details?id=%s"</string>
     <string name="ui_market">"ほかのアプリ"</string>
     <string name="ui_app_rating">"このアプリを評価する \n フィードバックを残す"</string>
-    <string name="ui_feedback">"Please feel free to contact me for any feedback, feature request or bug report. "</string>
-    <string name="ui_licence_content">"This software is provided 'as-is', without any express or implied warranty.  In no event will the author be held liable for any damages arising from the use of this software."</string>
+    <string name="ui_feedback">"どうぞご遠慮なくフィードバック、機能提案、または不具合報告をしてください。. "</string>
+    <string name="ui_licence_content">"このソフトウエアは現状のまま提供されており、いかなる保証もありません。このソフトウエアの著作者は、このソフトウエアを利用したことによって発生したいかなる損害でもその責任を負いません。"</string>
     <string name="ui_art_licence_title">Artistic Licence</string>
-    <string name="ui_art_licence_content">"All icons for this app were created and belong to the author of the app : QPython."</string>
-    <string name="ui_whats_new">"What's new"</string>
-    <string name="save">Save</string>
-    <string name="save_as">Save as</string>
-    <string name="open">Open</string>
-    <string name="file_name">File Name</string>
-    <string name="file_exist_hint">This file is exist, please rename.</string>
-    <string name="empty_file">Blank file</string>
-    <string name="webapp_project">WebApp(Project)</string>
-    <string name="console_app_project">ConsoleApp(Project)</string>
-    <string name="kivy_app_project">KivyApp(Project)</string>
-    <string name="confirm">Confirm</string>
-    <string name="cancel">Cancel</string>
-    <string name="new_project">New project</string>
-    <string name="error_dont_kn">Some error occurred.</string>
-    <string name="project_name">Project name</string>
-    <string name="jump_to">Jump to</string>
-    <string name="choose_ttf">Choose font file(.ttf)</string>
-    <string name="explorer">Explorer</string>
-    <string name="new_script">New script</string>
-    <string name="enter_name_hint">Enter script name</string>
+    <string name="ui_art_licence_content">"このアプリに使用されているアイコンはQPythonの著作者の製作であり、その権利はその著作者に帰属します。"</string>
+    <string name="ui_whats_new">"最新情報"</string>
+    <string name="save">保存</string>
+    <string name="save_as">ファイル名を指定して保存</string>
+    <string name="open">開く</string>
+    <string name="file_name">ファイル名</string>
+    <string name="file_exist_hint">そのファイルは既に存在します。名前を変えてください。</string>
+    <string name="empty_file">空ファイル</string>
+    <string name="webapp_project">Webアプリ(プロジェクト)</string>
+    <string name="console_app_project">コンソールアプリ(プロジェクト)</string>
+    <string name="kivy_app_project">Kivyアプリ(プロジェクト)</string>
+    <string name="confirm">確認</string>
+    <string name="cancel">取り消し</string>
+    <string name="new_project">新規プロジェクト</string>
+    <string name="error_dont_kn">エラーが発生しました。</string>
+    <string name="project_name">プロジェクト名</string>
+    <string name="jump_to">移動する</string>
+    <string name="choose_ttf">フォントファイルを選択(.ttf)</string>
+    <string name="explorer">エクスプローラ</string>
+    <string name="new_script">新規スクリプト</string>
+    <string name="enter_name_hint">スクリプト名を入力</string>
 
-    <string name="paste">Paste</string>
-    <string name="install_with_python_s_pypi">INSTALL WITH PYTHON\'S PYPI</string>
-    <string name="py_pi">You can install or upgrde Python packages for android paltform through pypi.python.org</string>
-    <string name="download_fail">Download fail</string>
+    <string name="paste">貼り付け</string>
+    <string name="install_with_python_s_pypi">PYPIからインストール</string>
+    <string name="py_pi">pypi.python.orgを通じてPythonのパッケージをインストールしたりアップグレードできます。</string>
+    <string name="download_fail">ダウンロード失敗</string>
     <string name="key_root" translatable="false">root</string>
     <string name="key_sl4a" translatable="false">sl4a</string>
     <string name="key_qpypi" translatable="false">qpypi</string>
@@ -346,136 +346,136 @@
     <string name="key_root_dir">chrootDir</string>
     <string name="key_stay_awake">stayAwake</string>
     <string name="key_about">about</string>
-    <string name="dir_not_valid">The direction is not valid</string>
-    <string name="already_newest">Already newest</string>
-    <string name="share_text">QPython is a script engine running on android devices like phone or tablet, It embeds the Python interpreter, console, editor, SL4A Library for Android, which can make your android device run Python http://qpython.com/privacy.html</string>
+    <string name="dir_not_valid">不正なディレクトリです</string>
+    <string name="already_newest">すでに最新です</string>
+    <string name="share_text">QPythonはAndroidデバイス上で動作するスクリプトエンジンです。Pythonインタプリタ、コンソール、エディタ、SL4Aライブラリを組み込みで持っており、それらはAndroid上でのPythonの実行を可能にします。http://qpython.com/privacy.html</string>
     <string name="privacy_html" translatable="false">http://qpython.com/privacy.html</string>
-    <string name="new_folder">New Folder</string>
-    <string name="folder_name">Folder name</string>
-    <string name="untitled_folder">untitled folder</string>
-    <string name="toast_folder_exist">Operation failed! Please use a different name</string>
-    <string name="fail_open_file">Unable to open the file, the file is not exists</string>
-    <string name="run_dirty_hint">Do you want to save the change first?</string>
-    <string name="no_im_good">No, I\'m good</string>
-    <string name="convert_fail">Convert fail</string>
-    <string name="delete_file_hint">Do you want to delete this file?</string>
-    <string name="rename">Rename</string>
-    <string name="rename_fail">Rename fail</string>
-    <string name="delete_fail">Delete fail</string>
-    <string name="runtime_log">Runtime Log: %s</string>
-    <string name="fedback_mail">[Feedback]\n\n</string>
-    <string name="log_title">Runtime Log</string>
+    <string name="new_folder">新規フォルダ</string>
+    <string name="folder_name">フォルダ名</string>
+    <string name="untitled_folder">名称未設定フォルダ</string>
+    <string name="toast_folder_exist">操作に失敗しました。別の名前で再度お試しください。</string>
+    <string name="fail_open_file">ファイルが存在しないため、ファイルを開けません。</string>
+    <string name="run_dirty_hint">先に保存しますか?</string>
+    <string name="no_im_good">必要ありません。</string>
+    <string name="convert_fail">変換に失敗しました。</string>
+    <string name="delete_file_hint">このファイルを消去しますか?</string>
+    <string name="rename">名前の変更</string>
+    <string name="rename_fail">名前を変更できませんでした。</string>
+    <string name="delete_fail">削除できませんでした。</string>
+    <string name="runtime_log">実行時ログ: %s</string>
+    <string name="fedback_mail">[フィードバック]\n\n</string>
+    <string name="log_title">実行時ログ</string>
     <string name="log" translatable="false">Log</string>
 
     <string name="date_format">[ %s ]</string>
-    <string name="not_root_yet">This device is not rooted yet</string>
-    <string name="download_apk">Download APK?</string>
-    <string name="download_apk_hint">This operation may charge if you ain\'t in wifi state</string>
-    <string name="downloading_new_apk">Downloading new package</string>
-    <string name="checking_update">Checking update</string>
-    <string name="run_bg_title">Run on background</string>
-    <string name="scan">Scan</string>
-    <string name="read_script_from_qrcode">Read code from QRCode</string>
+    <string name="not_root_yet">このデバイスはルート化されていません。</string>
+    <string name="download_apk">APKをダウンロードしますか?</string>
+    <string name="download_apk_hint">WiFi未接続の場合、モバイル通信料がかかる可能性があります。</string>
+    <string name="downloading_new_apk">新規パッケージをダウンロード</string>
+    <string name="checking_update">アップデートの確認</string>
+    <string name="run_bg_title">バックグラウンドで実行する</string>
+    <string name="scan">スキャン</string>
+    <string name="read_script_from_qrcode">QRCodeからコードを読み込み</string>
 
-    <string name="course">Course</string>
-    <string name="lost_connect">Lose Connect</string>
-    <string name="featured_courses">Courses</string>
-    <string name="programs">Programs</string>
-    <string name="open_gl2_is_not_supported">OpenGL2 is not supported</string>
-    <string name="unable_extract">Unable to extract python files</string>
-    <string name="get_setting_data_fail">Get setting data fail</string>
-    <string name="terminal_bg_hint">Do you want to keep terminal running on background?</string>
-    <string name="thanks">THANKS!</string>
-    <string name="extra_pypi">Set PYPI</string>
+    <string name="course">コース</string>
+    <string name="lost_connect">接続失敗</string>
+    <string name="featured_courses">コース</string>
+    <string name="programs">プログラム</string>
+    <string name="open_gl2_is_not_supported">OpenGL2はサポートされていません。</string>
+    <string name="unable_extract">Pythonコードを抽出できません。</string>
+    <string name="get_setting_data_fail">設定を読み込めませんでした。</string>
+    <string name="terminal_bg_hint">コンソールをバックグラウンドで続行しますか?</string>
+    <string name="thanks">ありがとうございます!</string>
+    <string name="extra_pypi">PYPIを設定</string>
     <string name="v_version" translatable="false">v %s</string>
-    <string name="already_newest_current_version">Already newest, current version is </string>
-    <string name="reward">Reward</string>
-    <string name="oops_seems_like_your_net_have_some_trouble">Oops! \n Seems like your net has some trouble…</string>
-    <string name="lose_google_server">Can\'t connect to Google Play service, please check your network.</string>
-    <string name="thanks_your_support">Thanks for your support!</string>
-    <string name="under_16_status_bar_hint">The change of status bar\'s visibility will be apply after restart Terminal.</string>
-    <string name="refresh">Refresh</string>
-    <string name="reset_suc">Reset success</string>
-    <string name="reset_hint">This operation will only become effective after restart</string>
-    <string name="restart">Restart</string>
-    <string name="fail_resume_console">Fail to resume console</string>
-    <string name="failed_bind_term">Failed to bind to TermService!</string>
-    <string name="console_running">QPython Console is running</string>
-    <string name="qpy_console">QPython Console</string>
+    <string name="already_newest_current_version">すでに最新です。現在のバージョンは</string>
+    <string name="reward">報酬</string>
+    <string name="oops_seems_like_your_net_have_some_trouble">しまった! \nインターネット接続に問題があるようです!</string>
+    <string name="lose_google_server">Google Playに接続できませんでした。ネットワークを確認してください。</string>
+    <string name="thanks_your_support">応援してくださってありがとうございます!</string>
+    <string name="under_16_status_bar_hint">ステータスバーの表示・非表示はコンソールを再起動すると適用されます。</string>
+    <string name="refresh">最新の状態に更新する</string>
+    <string name="reset_suc">リセットに成功しました。</string>
+    <string name="reset_hint">この操作はアプリの再起動後に適用されます。</string>
+    <string name="restart">アプリを再起動</string>
+    <string name="fail_resume_console">コンソールを続行できません。</string>
+    <string name="failed_bind_term">TermServiceに接続できませんでした。!</string>
+    <string name="console_running">QPythonコンソール動作中</string>
+    <string name="qpy_console">QPythonコンソール</string>
     <string name="level" translatable="false">lv %s</string>
-    <string name="recommend">Recommend</string>
-    <string name="newest_course">Latest</string>
-    <string name="best_python_development_ide_non_mobile">Best Python Development IDE \non mobile</string>
-    <string name="sign_in_with_google">Sign in with Google</string>
-    <string name="by_signing_in_you_agree_to_out_privacy_policy_term_of_service"><![CDATA[By signing in you agree with our <font color="#4BAC07">privacy policy & term </font>of service]]></string>
+    <string name="recommend">推奨</string>
+    <string name="newest_course">最新</string>
+    <string name="best_python_development_ide_non_mobile">Pythonの開発に最適なIDEはモバイルではありません。</string>
+    <string name="sign_in_with_google">Googleでサインイン</string>
+    <string name="by_signing_in_you_agree_to_out_privacy_policy_term_of_service"><![CDATA[サインインするには、当サービスの<font color="#4BAC07">プライバシーポリシー</font>に同意する必要があります。]]></string>
     <string name="logo" translatable="false">logo</string>
-    <string name="copy_hint">Copy to editor to run</string>
-    <string name="my_scripts">My Scripts</string>
-    <string name="my_share">My share</string>
-    <string name="gist_title">Gist Title</string>
-    <string name="description">Description</string>
-    <string name="too_long_hint">This value is too long. It should have 140 characters or less.</string>
-    <string name="enter_snippet">Enter snippet name</string>
-    <string name="welcome_s">Welcome, <![CDATA[<font color="#4BAC07"><u>%s</u></font>]]></string>
+    <string name="copy_hint">実行のため、エディタにコピーします</string>
+    <string name="my_scripts">スクリプト</string>
+    <string name="my_share">共有済み</string>
+    <string name="gist_title">Gistのタイトル</string>
+    <string name="description">説明</string>
+    <string name="too_long_hint">値が長すぎます。140文字以内にしてください。</string>
+    <string name="enter_snippet">スニペットの名前を入力</string>
+    <string name="welcome_s">ようこそ、<![CDATA[<font color="#4BAC07"><u>%s</u></font>]]>さん</string>
     <string name="re_format">Re <![CDATA[<font color="#ECCD00">@%1$s</font>]]>:\u0020 %2$s</string>
     <string name="replied_format"><![CDATA[<font color="#ECCD00">@%1$s</font>]]>:\u0020 %2$s</string>
-    <string name="login"><u>Sign In</u></string>
-    <string name="auth_failed">Authentication failed.</string>
-    <string name="log_out">Sign Out</string>
+    <string name="login"><u>サインイン</u></string>
+    <string name="auth_failed">認証に失敗しました。</string>
+    <string name="log_out">サインアウト</string>
     <string name="me">Me</string>
-    <string name="grant_storage_hint">You need to grant storage permission</string>
-    <string name="lost_google_hint">Can not connect to google server, please check your internet</string>
-    <string name="upload_suc">Code upload successfully.</string>
-    <string name="upload_fail">Code could not be uploaded,</string>
-    <string name="my_program">My Program</string>
-    <string name="nothing_here_yet">Nothing here yet. :(</string>
-    <string name="sofa_hint">Do you want to be the first to comment?</string>
+    <string name="grant_storage_hint">ストレージへのアクセスを許可をする必要があります。</string>
+    <string name="lost_google_hint">Googleのサーバーに接続できませんでした。ネットワークを確認してください。</string>
+    <string name="upload_suc">正常にコードをアップロードしました。</string>
+    <string name="upload_fail">コードをアップロードできませんでした。</string>
+    <string name="my_program">プログラム</string>
+    <string name="nothing_here_yet">まだ何もありません。 :(</string>
+    <string name="sofa_hint">初めにコメントしますか?</string>
     <string name="key_hide_noti" translatable="false">hide_noti</string>
     <string name="key_hide_push" translatable="false">hide_push</string>
-    <string name="null_comment_hint">Null comment content…</string>
-    <string name="initial">Initial</string>
-    <string name="share_empty_hint">You need to save file before share.</string>
-    <string name="need_login">Need Sign in</string>
-    <string name="upload_login_hint">You have to Sign in before you could upload your code</string>
-    <string name="login_now">Login now</string>
-    <string name="cloud_empty_hint">You don\'t have any scripts on cloud yet</string>
-    <string name="mkdir_fail">Make direction fail.</string>
-    <string name="not_support_type_hint">Not support upload this type of file now</string>
+    <string name="null_comment_hint">コメントに内容がありません。</string>
+    <string name="initial">初期</string>
+    <string name="share_empty_hint">共有前に保存する必要があります。</string>
+    <string name="need_login">サインインしてください。</string>
+    <string name="upload_login_hint">サインインせずにコードをアップロードすることはできません。</string>
+    <string name="login_now">ログインする</string>
+    <string name="cloud_empty_hint">クラウド上にコードがありません。</string>
+    <string name="mkdir_fail">ディレクトリの作成に失敗しました。</string>
+    <string name="not_support_type_hint">このファイルタイプのアップロードはサポートされていません。</string>
     <string name="conflict_hint"><Data>
-        <![CDATA[ <b>Remote file:</b>   <br/>
-    <u>Size:</u>  %4$s   <br/>
-    <u>Last updated:</u> %3$s   <br/><br/>
-    <b>Local file:</b><br/>
-    <u>Size:</u> %2$s<br/>
-    <u>Last updated:</u> %1$s <br/><br/>
-    Do you want to override?]]></Data></string>
-    <string name="override_fail_hint">Override fail, please retry later</string>
-    <string name="delete_remote_suc">Delete remote file success</string>
-    <string name="delete_suc">Delete file success</string>
-    <string name="click_retry">Request timed out \nClick screen to retry</string>
-    <string name="lout">Log out?</string>
-    <string name="log_noti">Log Notification</string>
-    <string name="app_noti">App Notifications</string>
-    <string name="override_hint">Override local file?</string>
-    <string name="file_downloaded">File downloaded</string>
-    <string name="login_error">Login error</string>
-    <string name="my_space">My Space (%sMb / 10Mb)</string>
-    <string name="my_space_empty">My Space (? Mb / 10Mb)</string>
-    <string name="save_amp_push"><![CDATA[Save & Push]]></string>
-    <string name="shortcut_create_suc">Shortcut %s is created success</string>
-    <string name="need_grant">You need grant these permissions</string>
-    <string name="no_space">You don\'t have enough space to upload</string>
-    <string name="no_file">No file within this folder</string>
-    <string name="no_recent_file">You have not open any file recently</string>
-    <string name="cant_open">This file can not be opened.</string>
-    <string name="toolbar_showing">Project structure</string>
-    <string name="toolbar_close">Editor</string>
+        <![CDATA[ <b>オンラインのファイル:</b>   <br/>
+    <u>サイズ:</u>  %4$s   <br/>
+    <u>最終更新:</u> %3$s   <br/><br/>
+    <b>ローカルのファイル:</b><br/>
+    <u>大きさ:</u> %2$s<br/>
+    <u>最終更新:</u> %1$s <br/><br/>
+    上書きしますか?]]></Data></string>
+    <string name="override_fail_hint">上書きできませんでした。時間をおいて再度お試しください。</string>
+    <string name="delete_remote_suc">オンラインのファイルを正常に削除しました。</string>
+    <string name="delete_suc">ファイルを正常に削除しました。</string>
+    <string name="click_retry">リクエストに失敗しました。画面をタップして再試行します。</string>
+    <string name="lout">ログアウトしますか?</string>
+    <string name="log_noti">ログ通知</string>
+    <string name="app_noti">アプリの通知</string>
+    <string name="override_hint">ローカルのファイルを上書きしますか?</string>
+    <string name="file_downloaded">ファイルがダウンロードされました。</string>
+    <string name="login_error">ログイン中にエラーが発生しました。</string>
+    <string name="my_space">容量 (%sMb / 10Mb)</string>
+    <string name="my_space_empty">空き容量 (? Mb / 10Mb)</string>
+    <string name="save_amp_push"><![CDATA[保存して上書き]]></string>
+    <string name="shortcut_create_suc">ショートカット%sは正常に作成されました。</string>
+    <string name="need_grant">これらの権限を許可する必要があります。</string>
+    <string name="no_space">容量が足りません。</string>
+    <string name="no_file">このフォルダにはファイルが存在しません。</string>
+    <string name="no_recent_file">最近ファイルを開いていません。</string>
+    <string name="cant_open">このファイルは開けません。</string>
+    <string name="toolbar_showing">プロジェクトの構造</string>
+    <string name="toolbar_close">エディタ</string>
     <string name="slash_project_node" translatable="false">/projects</string>
-    <string name="not_support_yet">Not support yet</string>
-    <string name="new_file">New file</string>
+    <string name="not_support_yet">まだサポートされていません。</string>
+    <string name="new_file">新規ファイル</string>
     <string name="aipy" translatable="false">AIPy</string>
-    <string name="tools">Tools</string>
-    <string name="aipy_not_install"><![CDATA[Please <font color="#4BAC07">install base packages</font> \n before install related AIPY packages.]]></string>
+    <string name="tools">ツール</string>
+    <string name="aipy_not_install"><![CDATA[<font color="#4BAC07">依存しているパッケージ</font>をインストールしてからAIPYをインストールしてください。]]></string>
 
     <!--color string-->
     <string name="color_red" translatable="false">#FFD2483D</string>
@@ -483,33 +483,33 @@
     <string name="color_dark_gray" translatable="false">#FF4A4A4A</string>
     <string name="color_yellow" translatable="false">#FFECCD00</string>
 
-    <string name="update_time_hint">Update: %s</string>
-    <string name="aipy_list_empty_hint">Can\'t find any AIPy package, please locate the error by following the steps below.\n
-        1. Make sure you have installed AIPy application\n
-        2. Make sure QPython has the permission of write file\n
-        3. Try to refresh by clicking the upper right corner button\n\n
-        If that dose\'t work, feel free to contact us by Email or github
+    <string name="update_time_hint">更新: %s</string>
+    <string name="aipy_list_empty_hint">AIPyが見つかりません。AIPyを探すか、以下の手順でインストールしてください。\n
+        1. AIPyアプリをインストール\n
+        2. QPythonにファイル書き込みを許可\n
+        3. 右上部の角にあるボタンを押して最新の状態に更新\n\n
+        動かない場合は遠慮なくメールかGithubに連絡してください。
     </string>
-    <string name="package_installed">This package already installed</string>
-    <string name="install_suc">Install success</string>
-    <string name="install_fail">Install fail, please try again later</string>
-    <string name="install_package_fail">Install package fail, please retry later</string>
+    <string name="package_installed">このパッケージは既にインストールされています。</string>
+    <string name="install_suc">インストール成功</string>
+    <string name="install_fail">インストールに失敗しました。時間をおいて再度お試しください。</string>
+    <string name="install_package_fail">パッケージのインストールに失敗しました。時間をおいて再度お試しください。</string>
     <string name="lib_cache_folder_name" translatable="false">.lib_cache</string>
     <string name="py3_lib_cache_folder_name" translatable="false">.py3_cache</string>
-    <string name="aipy_not_release">Please Install and run setup from AIPy App</string>
-    <string name="aipy_not_support">AIPy do not support QPY3 yet</string>
+    <string name="aipy_not_release">AIPyのアプリからインストールとセットアップをしてください。</string>
+    <string name="aipy_not_support">AIPyはQPY3をまだサポートしていません。</string>
 
     <string name="aipy_app_id" translatable="false">org.aipy.app</string>
     <string name="python3_app_id" translatable="false">org.qpython.qpy36</string>
-    <string name="aipy_lib_hint">You can install or upgrade other AIPY related package below</string>
-    <string name="album">Album</string>
-    <string name="last_refresh">Last Refresh: %s</string>
-    <string name="data_saver">Data saver</string>
-    <string name="saver_on">Use local cache</string>
-    <string name="saver_off">Reload every time</string>
+    <string name="aipy_lib_hint">AIPYに関連した以下のパッケージをインストールまたは更新できます。</string>
+    <string name="album">アルバム</string>
+    <string name="last_refresh">最終更新: %s</string>
+    <string name="data_saver">データサーバー</string>
+    <string name="saver_on">ローカルのキャッシュを使う</string>
+    <string name="saver_off">毎回再読み込みする</string>
     <string name="key_saver" translatable="false">saver</string>
-    <string name="library">Library</string>
-    <string name="run">Run</string>
+    <string name="library">ライブラリ</string>
+    <string name="run">実行</string>
 
     <string name="insert_if">if :\n</string>
     <string name="insert_def">def ():\n</string>
@@ -521,26 +521,26 @@
     <string name="insert_el">else:\n</string>
     <string name="insert_ret">return\n</string>
 
-    <string name="file_new">File</string>
-    <string name="install_py3">Install Python 3</string>
-    <string name="py2_now">Using Python 2 now</string>
-    <string name="py3_now">Using Python 3 now</string>
-    <string name="switch_py3">Switch to Python 3</string>
-    <string name="enter_history">History</string>
-    <string name="qpy_featured">QPython Featured</string>
-    <string name="history_emp">History is empty</string>
-    <string name="no_google">Can\'t login without Google service</string>
-    <string name="pip_no_net">Can\'t open pip without network</string>
+    <string name="file_new">ファイル</string>
+    <string name="install_py3">Python 3をインストール</string>
+    <string name="py2_now">現在Python 2を使用中</string>
+    <string name="py3_now">現在Python 3を使用中</string>
+    <string name="switch_py3">Python 3に切り替え</string>
+    <string name="enter_history">履歴</string>
+    <string name="qpy_featured">QPythonの特集</string>
+    <string name="history_emp">履歴はありません</string>
+    <string name="no_google">Googleサービスなしでログインできません。</string>
+    <string name="pip_no_net">ネットワークなしでpipを開くことはできません。</string>
     <string name="key_py3">switch_py3</string>
-    <string name="py3_not_install">Python3 not install</string>
-    <string name="install_py3_hint">You need to install python3 before use it</string>
-    <string name="open_app_market">Go to App market</string>
-    <string name="release_error">Packages not release</string>
-    <string name="open_py3_hint">Please release packages from Python3 app first</string>
-    <string name="open_py3">Open Python3 app</string>
-    <string name="unzip_pac_fail">Unzip packages fail</string>
-    <string name="retry_hint">Please retry</string>
-    <string name="event_login">LOGIN</string>
+    <string name="py3_not_install">Python3はインストールされていません。</string>
+    <string name="install_py3_hint">Python3を使用する前にインストールする必要があります。</string>
+    <string name="open_app_market">アプリマーケットに移動</string>
+    <string name="release_error">パッケージが解放されていません。</string>
+    <string name="open_py3_hint">先にPython3からパッケージを開放してください。</string>
+    <string name="open_py3">Python3を開く</string>
+    <string name="unzip_pac_fail">zipの解凍に失敗しました。</string>
+    <string name="retry_hint">再試行してください。</string>
+    <string name="event_login">ログイン</string>
     <string name="event_me">Open_Me</string>
     <string name="event_term">Open_terminal</string>
     <string name="event_editor">Open_editor</string>
@@ -550,9 +550,9 @@
     <string name="event_file">Open_explorer</string>
     <string name="event_course">Open_course</string>
     <string name="event_top">Open_Top</string>
-    <string name="browser">Browser</string>
-    <string name="switch_py3_hint">The interpreter are using python 2 now, do you want to switch to python 3?</string>
-    <string name="goto_setting">Go to setting</string>
+    <string name="browser">ブラウザ</string>
+    <string name="switch_py3_hint">現在Python2を使用中です。Python3に切り替えますか?</string>
+    <string name="goto_setting">設定に移動</string>
     <string name="action_from_python_three" translatable="false">from_python_three</string>
-    <string name="net_lagging">The net seems lagging, please wait with patience</string>
+    <string name="net_lagging">ネットワークにラグが発生しています。しばらくお待ちください。</string>
 </resources>
