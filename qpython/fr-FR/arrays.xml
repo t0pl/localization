@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_statusbar_preference">
+        <item>Afficher la barre de status</item>
+        <item>Cacher la barre de status</item>
+    </string-array>
+
+    <string-array name="entries_actionbar_preference">
+        <!-- <item>Action bar disabled</item> -->
+        <item>Afficher la barre d\'action</item>
+        <item>Cacher la barre d\'action(Cliquez sur le haut de l'écran ou sur le bouton du menu pour afficher à nouveau)</item>
+    </string-array>
+
+    <string-array name="entries_orientation_preference">
+        <item>Automatique</item>
+        <item>Horizontale</item>
+        <item>Verticale</item>
+    </string-array>
+
+    <string-array name="entries_fontsize_preference">
+        <item>4 x 8 Pixel</item>
+        <item>6 types de point</item>
+        <item>7 types de point</item>
+        <item>8 types de point</item>
+        <item>9 types de point</item>
+        <item>10 types de point</item>
+        <item>12 types de point</item>
+        <item>14 types de point</item>
+        <item>16 types de point</item>
+        <item>20 types de point</item>
+        <item>24 types de point</item>
+        <item>28 types de point</item>
+        <item>32 types de point</item>
+        <item>36 types de point</item>
+        <item>42 types de point</item>
+        <item>48 types de point</item>
+        <item>64 types de point</item>
+        <item>72 types de point</item>
+        <item>96 types de point</item>
+        <item>144 types de point</item>
+        <item>288 types de point</item>
+    </string-array>
+
+    <string-array name="entries_color_preference">
+        <item>Caractère noir sur fond blanc</item>
+        <item>Caractère blanc sur fond noir</item>
+        <item>Caractère blanc sur fond bleu</item>
+        <item>Caractère vert sur fond noir</item>
+        <item>Caractère jaune sur fond noir</item>
+        <item>Caractère rouge sur fond noir</item>
+        <item>Style holo</item>
+        <item>surexposé</item>
+        <item>exposé noir</item>
+        <item>Style Linux</item>
+    </string-array>
+
+    <string-array name="entries_backaction_preference">
+        <item>Fermer toutes les fenêtres</item>
+        <item>Fermer la fenêtre actuelle</item>
+        <item>Fermer la fenêtre actuelle,mais continuer de faire fonctionner les sessions</item>
+        <item>Envoyer ESC au Terminal</item>
+        <item>Envoyer TAB au Terminal</item>
+    </string-array>
+
+    <string-array name="entries_controlkey_preference">
+        <item>Balle</item>
+        <item>\@</item>
+        <item>Alt-Gche</item>
+        <item>Alt-Drt</item>
+        <item>Vol-Ht</item>
+        <item>Vol-Bas</item>
+        <item>Camera</item>
+        <item>Nul</item>
+    </string-array>
+
+    <string-array name="entries_fnkey_preference">
+        <item>Balle</item>
+        <item>\@</item>
+        <item>Alt-Gche</item>
+        <item>Alt-Drt</item>
+        <item>Vol-Ht</item>
+        <item>Vol-Bas</item>
+        <item>Camera</item>
+        <item>Nul</item>
+    </string-array>
+
+    <string-array name="entries_ime_preference">
+        <item>Caractère</item>
+        <item>Mot</item>
+    </string-array>
+
+
+    <!-- These are the 'short' names for the control keys. They are used in the special keys dialog. -->
+    <string-array name="control_keys_short_names">
+        <item>Balle</item>
+        <item>\@</item>
+        <item>Alt-Gche</item>
+        <item>Alt-Drt</item>
+        <item>Vol-Ht</item>
+        <item>Vol-Bas</item>
+        <item>Camera</item>
+        <item>Nul</item>
+    </string-array>
+
+    <!-- These are the 'short' names for the Fn keys. They are used in the special keys dialog. -->
+    <string-array name="fn_keys_short_names">
+        <item>Balle</item>
+        <item>\@</item>
+        <item>Alt-Gche</item>
+        <item>Alt-Drt</item>
+        <item>Vol-Ht</item>
+        <item>Vol-Bas</item>
+        <item>Camera</item>
+        <item>Nul</item>
+    </string-array>
+
+
+    <!-- Color themes -->
+
+
+    <string-array name="color_theme_names">
+        <item>Classique</item>
+        <item>Négatif</item>
+        <item>Matrix</item>
+        <item>Ciel</item>
+        <item>Dracula</item>
+    </string-array>
+    <string-array name="color_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Text size -->
+    <string-array name="text_size_names">
+        <item>6 pt</item>
+        <item>8 pt</item>
+        <item>10 pt</item>
+        <item>12 pt</item>
+        <item>14 pt</item>
+        <item>16 pt</item>
+        <item>18 pt</item>
+        <item>24 pt</item>
+        <item>32 pt</item>
+        <item>48 pt</item>
+    </string-array>
+    <string-array name="text_size_values">
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>24</item>
+        <item>32</item>
+        <item>48</item>
+    </string-array>
+
+    <!-- End of lines -->
+
+    <!-- Recent files -->
+
+    <!-- Recent files -->
+
+    <!-- Encoding -->
+
+    <string-array name="max_lines_num_with_syntax_values">
+        <item>100</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+    </string-array>
+</resources>

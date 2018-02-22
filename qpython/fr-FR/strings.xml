@@ -1,0 +1,512 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="app_name">QPython</string>
+    <string name="terminal">Terminal</string>
+    <string name="recent">Récent</string>
+    <string name="snippet">Snippet</string>
+    <string name="script">Script</string>
+    <string name="project">Projet</string>
+
+    <string name="setting">Réglages</string>
+    <string name="editor">Editeur</string>
+    <string name="community">Commauté</string>
+
+    <string name="more">Plus</string>
+    <string name="qpypi">Librairies</string>
+    <string name="sl4a_server">Serveur SL4A</string>
+    <string name="internal_space">Réinitialiser le stockage</string>
+    <string name="ftp_server">Serveur FTP</string>
+
+
+    <!---->
+    <string name="application_terminal">Terminal</string>
+    <string name="preferences">Préférences</string>
+    <string name="new_window">Ouvrir un nouveau terminal</string>
+    <string name="close_window">Fermer terminal</string>
+    <string name="window_list">Liste des terminaux</string>
+    <string name="reset">Réinitialiser le terminal</string>
+    <string name="send_email">Envoyer un mail à…</string>
+    <string name="special_keys">Touches spéciales</string>
+    <string name="toggle_soft_keyboard">Ouvrir/Fermer le clavier léger</string>
+
+    <string name="reset_toast_notification">L'état actuel sera réinitialisé.</string>
+
+    <string name="enable_wakelock">Empêcher la mise en veille</string>
+    <string name="disable_wakelock">Autoriser la mise en veille</string>
+    <string name="enable_wifilock">Empêcher la désactivation du WIFI</string>
+    <string name="disable_wifilock">Autoriser la désactivation du WIFI</string>
+
+    <string name="edit_text">Editer du texte</string>
+    <string name="select_text">Sélectionner du texte</string>
+    <string name="copy_all">tout copier</string>
+    <string name="send_control_key">Envoyer la touche Ctrl</string>
+    <string name="send_fn_key">Envoyer la touche Fn</string>
+
+    <string name="window_title">Terminal %1$d</string>
+
+    <string name="process_exit_message">Session fermée</string>
+
+    <!-- Preference dialog -->
+    <string name="screen_preferences">Ecran</string>
+
+    <string name="title_statusbar_preference">Barre d\'état'</string>
+    <string name="summary_statusbar_preference">Montrer/Cacher la barre d\'état</string>
+    <string name="dialog_title_statusbar_preference">Barre d\'état</string>
+
+    <string name="title_actionbar_preference">Barre d\'action</string>
+    <string name="summary_actionbar_preference">Choisir le comportement de la barre d\'action(Android 3.0 et supérieur)</string>
+    <string name="dialog_title_actionbar_preference">Comportement de la barre d'action</string>
+
+    <string name="title_orientation_preference">Orientation de l'écran</string>
+    <string name="summary_orientation_preference">Choisir une action pour l\'orientation de l\'écran</string>
+    <string name="dialog_title_orientation_preference">Action pour l\'orientation de l\'écran</string>
+
+    <string name="text_preferences">Texte</string>
+
+    <string name="title_utf8_by_default_preference">UTF-8 Utilisé par defaut</string>
+    <string name="summary_utf8_by_default_preference">Utiliser UTF-8 par defaut</string>
+
+    <string name="title_fontsize_preference">Taille du texte</string>
+    <string name="summary_fontsize_preference">Choisir la taille du texte</string>
+    <string name="dialog_title_fontsize_preference">Taille du text</string>
+
+    <string name="title_color_preference">Couleur du texte</string>
+    <string name="summary_color_preference">Choisir la couleur du texte</string>
+    <string name="dialog_title_color_preference">Couleur du texte</string>
+
+    <string name="keyboard_preferences">Clavier</string>
+
+    <string name="title_backaction_preference">Comportement touche Back</string>
+    <string name="summary_backaction_preference">Choisir le comportement de la touche Back</string>
+    <string name="dialog_title_backaction_preference">Comportement touche Back</string>
+
+    <string name="title_controlkey_preference">Touche Ctrl</string>
+    <string name="summary_controlkey_preference">Choisir le comportement de la touche Ctrl</string>
+    <string name="dialog_title_controlkey_preference">Touche Ctrl</string>
+
+    <string name="title_fnkey_preference">Touche Fn</string>
+    <string name="summary_fnkey_preference">Choisir le comportement de la touche Fn</string>
+    <string name="dialog_title_fnkey_preference">Touche Fn</string>
+
+    <string name="title_ime_preference">Procédé de l\'entrée de données</string>
+    <string name="summary_ime_preference">Choisir le procédé de l\'entrée de données</string>
+    <string name="dialog_title_ime_preference">Entrée de données</string>
+
+    <string name="shell_preferences">Shell</string>
+    <string name="title_shell_preference">Terminal</string>
+    <string name="summary_shell_preference">Choisir le Shell</string>
+    <string name="dialog_title_shell_preference">Shell</string>
+
+    <string name="title_initialcommand_preference">Commande initiale</string>
+    <string name="summary_initialcommand_preference">Commande initiale pour la performance automatiqueau démarage</string>
+    <string name="dialog_title_initialcommand_preference">Commande initiale</string>
+
+    <string name="title_termtype_preference">Type du Terminal</string>
+    <string name="summary_termtype_preference">Fixer le type de Terminal</string>
+    <string name="dialog_title_termtype_preference">Type du Terminal</string>
+
+    <string name="title_close_window_on_process_exit_preference">Fermer le terminal quand exit</string>
+    <string name="summary_close_window_on_process_exit_preference">Fermer le terminal quand exit</string>
+
+    <string name="title_verify_path_preference">Vérifier le  PATH</string>
+    <string name="summary_verify_path_preference">Effacer le PATH invalide</string>
+
+    <string name="title_do_path_extensions_preference">Autoriser l\'extension du PATH</string>
+    <string name="summary_do_path_extensions_preference">Autoriser d\'ajouter des commandes au PATH</string>
+
+    <string name="title_allow_prepend_path_preference">Autoriser la preposition du PATH</string>
+    <string name="summary_allow_prepend_path_preference">Autoriser d\'outrepasser les commandes existantes du PATH</string>
+
+    <string name="title_home_path_preference">Dossier HOME</string>
+    <string name="summary_home_path_preference">Utiliser comme le chemin accecible en écriture pour HOME</string>
+
+    <string name="control_key_dialog_title">Touches Ctrl et Fn</string>
+    <string name="control_key_dialog_control_text">CTRLKEY Space : Control-@ (NUL)\nCTRLKEY A..Z : Control-A..Z\nCTRLKEY 5 : Control-]\nCTRLKEY 6 : Control-^\nCTRLKEY 7 : Control-_\nCTRLKEY 9 : F11\nCTRLKEY 0 : F12</string>
+    <string name="control_key_dialog_control_disabled_text">Touche Ctrl désactivée</string>
+    <string name="control_key_dialog_fn_text">FNKEY 1..9 : F1-F9\nFNKEY 0 : F10\nFNKEY W : Up\nFNKEY A : Left\nFNKEY S : Down\nFNKEY D : Right\nFNKEY P : PageUp\nFNKEY N : PageDown\nFNKEY T : Tab\nFNKEY L : | (pipe)\nFNKEY U : _ (underscore)\nFNKEY E : Control-[ (ESC)\nFNKEY X : Delete\nFNKEY I : Insert\nFNKEY H : Home\nFNKEY F : End\nFNKEY . : Control-\\\n</string>
+    <string name="control_key_dialog_fn_disabled_text">Désactiver la touche Fn</string>
+
+    <string name="confirm_window_close_message">Voulez vous vraiment fermer le terminal?</string>
+
+    <string name="email_transcript_subject">Copier le terminal</string>
+    <string name="feedback_email_subject">Retour d\'information - QPython</string>
+    <string name="email_transcript_chooser_title">Retour d\'information ...</string>
+    <string name="email_transcript_no_email_activity_found">Aucune app a été trouvée pour envoyer un mail</string>
+
+    <string name="alt_sends_esc">Utiliser Alt comme ESC</string>
+    <string name="alt_sends_esc_summary_on">Utilise Alt comme ESC</string>
+    <string name="alt_sends_esc_summary_off">Annule l\'utilisation de Alt comme ESC</string>
+
+    <string name="title_mouse_tracking_preference">Envoyer le resulat de la souris</string>
+    <string name="summary_mouse_tracking_preference">Est-ce que le toucher et le défilement sont ignorés?</string>
+
+    <string name="dialog_title_script">script</string>
+    <string name="dialog_title_project">projet</string>
+
+
+    <string name="title_use_keyboard_shortcuts">Utiliser les raccourcis clavier</string>
+    <string name="use_keyboard_shortcuts_summary_on">Ctrl-Tab: cycle terminal, Ctrl-Shift-N: nouveau terminal, Ctrl-Shift-V: coller.</string>
+    <string name="use_keyboard_shortcuts_summary_off">Raccourcis clavier désactivés.</string>
+    <string name="help">Aide</string>
+    <string name="activity_term_here_title">Term here</string>
+    <!-- BEGIN SHORTCUT RELATED STRINGS -->
+    <!-- AndroidManifest.xml -->
+    <string name="activity_shortcut_create">"Term raccourci"</string>
+    <string name="addshortcut_button_find_command">Trouver la commande</string>
+    <string name="addshortcut_command_hint">commande</string>
+    <string name="addshortcut_example_hint">--exemple=\""a\"</string>
+    <string name="addshortcut_navigator_title">SELECTIONNER LE RACCOURCI CIBLE</string>
+    <string name="addshortcut_command_window_instructions">Le terminal de commande a besoin du mPath complet, pas d\'arguments. Pour d\'autres commandes, utilisez le terminal d'arguments</string>
+    <string name="addshortcut_arguments_label">Ajouter au dictionnaire</string>
+    <string name="addshortcut_shortcut_label">Raccourci label\:</string>
+    <string name="addshortcut_button_text_icon">Icone de texte</string>
+    <string name="addshortcut_make_text_icon">CREER L\'ICONE DE TEXTE</string>
+    <string name="addshortcut_text_icon_instructions"></string>
+    <string name="addshortcut_title">Raccourci pour Term</string>
+    <!-- FSNavigator.java -->
+    <string name="fsnavigator_title">SELECTEUR DE FICHIER</string>
+    <string name="fsnavigator_no_external_storage">Stockage externe non disponible</string>
+    <string name="fsnavigator_optional_enter_path">Ou entrer le mPath ici.</string>
+    <string name="fsnavigator_change_theme">Changer le theme</string>
+    <!-- ColorValue.java -->
+    <string name="colorvalue_label_lock_button_column">VERROUILLER</string>
+    <string name="colorvalue_icon_text_entry_hint">Entrer le texte pour l\'icone</string>
+
+    <string name="help_url">http://www.qpython.org</string>
+
+    <string name="read_only">Lecture seulement</string>
+    <string name="file">Explorateur</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="ok">OK</string>
+    <string name="close">Fermer</string>
+    <string name="no_change">Aucun changement</string>
+    <string name="feedback">Retour d\'information</string>
+    <string name="about">Sur</string>
+    <string name="file_not_exists">Le fichier n\'existe pas</string>
+    <string name="enable_root">Activer l\'accès à la racine pour QPython</string>
+    <!--<string name="my_name">作者：彭春瑜</string>-->
+    <!--<string name="qq_group">QQ群：87272821</string>-->
+    <string name="send">Envoyer</string>
+    <string name="no_camera">Impossible de trouver une caméra disponible, veuillez verifier si l\'application dispose des droits d\'accès pour votre caméra</string>
+    <string name="no_storage">Aucune autorisation pour lire le stockage</string>
+
+
+    <string name="pref_initialcommand_default_qpython">python</string>
+    <string name="qpy_app">QPY</string>
+    <string name="local_app">APP locale</string>
+    <string name="task">Tâche</string>
+    <string name="root_mode">Mode Root</string>
+    <string name="star_it">Evaluer</string>
+    <string name="disable_root">Désactiver l\'accès à la racine pour QPython</string>
+    <string name="http_qpypi_qpython_org">https://pypi.python.org/simple/</string>
+    <string name="add">ajouter</string>
+    <string name="sl4a_running">Le serveur SL4A est en marche</string>
+    <string name="sl4a_un_running">Le serveur SL4A n\'est pas en marche</string>
+    <string name="service_toggle">Changer/Basculer de service</string>
+    <string name="qpy_description">QPython est un moteur de script pour les appareils android comme les smartphones ou les tablettes.</string>
+    <string name="warning">Attention</string>
+    <string name="reset_warning">Réinitialiser le stockage va vous faire perdre tous les réglages et les libraires téléchargés, êtes-vous sur de vouloir réinitialiser?</string>
+    <string name="downloading">Librairie</string>
+    <string name="location">Emplacement</string>
+
+
+    <!--  -->
+
+    <!-- Titles -->
+    <string name="title_untitled">Sans nom</string>
+    <string name="title_editor">%1$s</string>
+    <string name="title_editor_dirty">%1$s *</string>
+    <string name="title_editor_readonly">[%1$s]</string>
+
+    <string name="title_settings">Réglages </string>
+
+    <!-- Config screen strings -->
+    <string name="config_cat_display">Afficher</string>
+    <string name="config_title_line_numbers">Montrer les numeros de ligne</string>
+    <string name="config_title_word_wrap">Enveloppe de mot</string>
+    <string name="config_title_font">Changer la police de texte</string>
+    <string name="config_title_text_size">Taille du texte</string>
+    <string name="config_title_color_theme">Couleur du theme</string>
+    <string name="config_title_scroll_fling">Lancer pour faire défiler plus rapidement</string>
+    <string name="config_summary_line_numbers">Affciher le numéro de ligneà gauche de la page</string>
+    <string name="config_summary_word_wrap">Les lignes vont se séparer en de nouvelles lignes si elles sont trop large pour l\'écran</string>
+    <string name="config_summary_scroll_fling">Décocher si vous avez des problèmes de performance</string>
+
+    <!-- Options Menu in QEdit -->
+
+    <!-- Misc UI strings -->
+    <string name="ui_save_text">"Voulez-vous enregistrer votre document? \nLes changements non sauvegardés vont être perdu"</string>
+    <string name="ui_save">Enregister</string>
+    <string name="ui_delete">Supprimer</string>
+    <string name="ui_no_save">"Ne pas enregistrer"</string>
+    <string name="ui_cancel">Annuler</string>
+    <string name="ui_hint_file_name">Nom du fichier</string>
+    <string name="ui_hint_search">Rechercher</string>
+    <string name="ui_history">Historique</string>
+    <string name="ui_force_read_only">Ouvrir en mode lecture seulement</string>
+    <string name="about_content">QEdit est un éditeur de texte pour les tablettes ou les smartphones android, en plus d\'editer du texte, il peut rendre le developpement de Python ou HTML sur android plus fun et surtout plus pratique.</string>
+
+    <!-- Misc Strings -->
+    <string name="lorem_ipsum">"QEdit est un merveilleux éditeur de texte"</string>
+
+    <string name="file_exists">Fichiers existants, veuillez les renommer</string>
+
+    <string name="video_src">Video {0}</string>
+    <string name="play_video">Play</string>
+    <string name="no_videos_found">Aucune vidéo trouvée sur cette page</string>
+    <string name="pls_install_a8_play">Installer d\'abord A8 Video Player</string>
+    <string name="download_as">Télécharger et enregistrer sous</string>
+    <string name="info_browser">QBrowser</string>
+
+    <!--  added by kyle -->
+    <string name="share">Partager</string>
+    <string name="save_as_snippets">Enregistrer comme un fragement</string>
+    <string name="snippet_exist">Le fragement existe,veuillez lui changer son nom .</string>
+    <string name="save_as_snippets_1">Les fragements ont été enregistrés sous: </string>
+    <string name="fail_to_insert">Echec de l\'insertion du fragement</string>
+    <string name="fail_to_goto">Taper un nombre correct s\'il vous plaît</string>
+    <string name="max_lines_num_with_syntax_title">Lignes misent en évidence automatiquement</string>
+    <string name="max_lines_num_with_syntax_summary">Mise en évidence automatique si les lignes sont inférieures à %s</string>
+    <string name="qedit_not_support">QEdit supporte seulement l\'execution ou un apercu des types de fichiers suivants\n.py, .sh, .lua, .html, .md.</string>
+
+    <string name="pls_install_lua">Veuillez installer QLua pour executer des scripts lua</string>
+    <string name="pls_install_qpy">Veuillez installer QPython pour executer des scripts python</string>
+    <string name="info_snippets">Fragements</string>
+
+    <string name="ui_ok">OK</string>
+    <string name="ui_contact_title">Contact</string>
+    <string name="ui_licence_title">Licence</string>
+    <string name="ui_mail">support@qpython.org</string>
+    <string name="ui_choose_mail">Ouvre le mail avec &#8230; </string>
+    <string name="ui_market_url">"https://market.android.com/developer?pub=Xavier+Gouchet"</string>
+    <string name="ui_market_app_url">"https://play.google.com/store/apps/details?id=%s"</string>
+    <string name="ui_market">"Jetez un coup d\'oeuil à mes autres applications"</string>
+    <string name="ui_app_rating">"Notez cette app \n laiiser un commentaire"</string>
+    <string name="ui_feedback">"N\'hesitez surtout pas à me contacter si vous avez des retours, une demande de fonctionnalité ou un rapport d\'erreur. "</string>
+    <string name="ui_licence_content">"Ce logiciel ditribué sous licence est distribué "TEL QUEL", sans garantie expresse ou implicite. En aucun cas l\'auteur pourra être tenu responsable des dommages résultant de l\'utilisation de ce logiciel."</string>
+    <string name="ui_art_licence_title">Licence artistique</string>
+    <string name="ui_art_licence_content">"Toutes les icones pour cette app ont été crées et appartiennent au créateur de l\'app : QPython"</string>
+    <string name="ui_whats_new">"Quoi de neuf"</string>
+    <string name="save">Enregistrer</string>
+    <string name="save_as">Enregistrer sous</string>
+    <string name="open">Ouvrir</string>
+    <string name="file_name">Nom du fichier</string>
+    <string name="file_exist_hint">Le fichier existe, veuillez le renommer.</string>
+    <string name="empty_file">Fichier vide</string>
+    <string name="webapp_project">WebApp(Projet)</string>
+    <string name="console_app_project">ConsoleApp(Projet)</string>
+    <string name="kivy_app_project">KivyApp(Projet)</string>
+    <string name="confirm">Confirmez</string>
+    <string name="cancel">Annulez</string>
+    <string name="new_project">Nouveau projet</string>
+    <string name="error_dont_kn">Une erreur s\'est produite.</string>
+    <string name="project_name">Nom du projet</string>
+    <string name="jump_to">Aller à</string>
+    <string name="choose_ttf">Choisir l\'extension du fichier(.ttf)</string>
+    <string name="explorer">Exploreur</string>
+    <string name="new_script">Nouveau script</string>
+    <string name="enter_name_hint">Entrer le nom du script</string>
+
+    <string name="paste">Coller</string>
+    <string name="install_with_python_s_pypi">INSTALLER AVEC PYPI DE PYTHON</string>
+    <string name="py_pi">Vous pouvez installer ou mettre à jour les packages Python pour android sur pypi.python.org</string>
+    <string name="download_fail">Téléchargement échoué</string>
+    <string name="key_reset">réinitialiser_stockage</string>
+    <string name="key_ftp_state">running_state</string>
+    <string name="key_username">nom d\'utilisateur</string>
+    <string name="key_ftp_pwd">mot de passe</string>
+    <string name="key_port_num">portNum</string>
+    <string name="key_show_pwd">montrer_motdepasse</string>
+    <string name="key_root_dir">chrootDir</string>
+    <string name="key_stay_awake">resterEveillé</string>
+    <string name="key_about">A propos</string>
+    <string name="dir_not_valid">La direction est invalide</string>
+    <string name="already_newest">Déjà le plus récent possible</string>
+    <string name="share_text">QPython est un moteur de script qui marche sur les appareils Android comme les téléphones ou les tablettes, celui-ci possede un interpréteur Python, une console, un editeur, la librairie SL4A pour Android, ce qui rend votre appareil capable d\'executer Python http://qpython.com/privacy.html</string>
+    <string name="new_folder">Nouveau dossier</string>
+    <string name="folder_name">Nom du dossier</string>
+    <string name="untitled_folder">dossier sans nom</string>
+    <string name="toast_folder_exist">L\'opération a échouée!Veuillez utiliser un nom différent</string>
+    <string name="fail_open_file">Impossible d\'ouvrir ce fichier, il n\'existe pas</string>
+    <string name="run_dirty_hint">Voulez-vous enregistrer les modifications d\'abord?</string>
+    <string name="no_im_good">Non ça va</string>
+    <string name="convert_fail">Convertion échouée</string>
+    <string name="delete_file_hint">Voulez-vous supprimer ce fichier?</string>
+    <string name="rename">Renommé</string>
+    <string name="rename_fail">Echec pour renommer</string>
+    <string name="delete_fail">Echec du supprimage</string>
+    <string name="runtime_log">Journal d\'exécution: %s</string>
+    <string name="fedback_mail">[retour d\'info]\n\n</string>
+    <string name="log_title">Journal d\'exécution</string>
+
+    <string name="date_format">[ %s ]</string>
+    <string name="not_root_yet">Cet appareil n\'est pas rooté</string>
+    <string name="download_apk">Télécharger l\'APK?</string>
+    <string name="download_apk_hint">Cette opération pourrait se mettre à charger si vous n\'êtes pas connecter à un réseau wifi</string>
+    <string name="downloading_new_apk">Téléchargents des nouveaux paquets</string>
+    <string name="checking_update">Vérification des mises à jour</string>
+    <string name="run_bg_title">Executer en tâche de fond</string>
+    <string name="scan">Scan</string>
+    <string name="read_script_from_qrcode">Lisez le code depuis QRCode</string>
+
+    <string name="course">Cours</string>
+    <string name="lost_connect">Perte de la connexion</string>
+    <string name="featured_courses">Cours</string>
+    <string name="programs">Programmes</string>
+    <string name="open_gl2_is_not_supported">OpenGL2 n\'est pas supporté</string>
+    <string name="unable_extract">Echec de l\'extraction des fichiers python</string>
+    <string name="get_setting_data_fail">Echec de l\'obtention des données de configuration</string>
+    <string name="terminal_bg_hint">Voulez-vous laisser le terminal s\'executer en tâche de fond?</string>
+    <string name="thanks">MERCI!</string>
+    <string name="extra_pypi">Set PYPI</string>
+    <string name="already_newest_current_version">La version actuelle est la plus récente </string>
+    <string name="reward">Recompense</string>
+    <string name="oops_seems_like_your_net_have_some_trouble">Oups! \n Votre connection a l\'air d\'avoir des difficultés</string>
+    <string name="lose_google_server">La connexion au service Google Play a échouée, vérifier votre connexion.</string>
+    <string name="thanks_your_support">Merci du soutien!</string>
+    <string name="under_16_status_bar_hint">Le changement de la visibilité de la barre de status s\'appliquera au redémmarrage du Terminal.</string>
+    <string name="refresh">Rafraîchir</string>
+    <string name="reset_suc">Réinitialisation réussie</string>
+    <string name="reset_hint">Cette opération réussira seulement après le redémmarage</string>
+    <string name="restart">Redémarrer</string>
+    <string name="fail_resume_console">Echec de la reprise de la console</string>
+    <string name="failed_bind_term">Echec de la connexion au TermService!</string>
+    <string name="console_running">La console QPython est en fonctionnement</string>
+    <string name="qpy_console">Console QPython</string>
+    <string name="recommend">Recommendation</string>
+    <string name="newest_course">Dernier</string>
+    <string name="best_python_development_ide_non_mobile">Meilleur environnement de développement(IDE) pour Python \nsur mobile</string>
+    <string name="sign_in_with_google">Connectez vous avec Google</string>
+    <string name="by_signing_in_you_agree_to_out_privacy_policy_term_of_service"><![CDATA[By signing in you agree with our <font color="#4BAC07">privacy policy & term </font>of service]]></string>
+    <string name="copy_hint">Copier dans l\'éditeur pour exécuter</string>
+    <string name="my_scripts">Mes Scripts</string>
+    <string name="my_share">Mon partage</string>
+    <string name="gist_title">Titre essentiel</string>
+    <string name="description">Description</string>
+    <string name="too_long_hint">Cette valeur est trop longue. Elle doit contenir 140 charactères ou moins.</string>
+    <string name="enter_snippet">Entrer le nom de l\'extrait</string>
+    <string name="welcome_s">Bienvenue, <![CDATA[<font color="#4BAC07"><u>%s</u></font>]]></string>
+    <string name="re_format">Re <![CDATA[<font color="#ECCD00">@%1$s</font>]]>:\u0020 %2$s</string>
+    <string name="replied_format"><![CDATA[<font color="#ECCD00">@%1$s</font>]]>:\u0020 %2$s</string>
+    <string name="login"><u>Se connecter</u></string>
+    <string name="auth_failed">L\'authentication a échouée.</string>
+    <string name="log_out">Se déconnecter</string>
+    <string name="me">Moi</string>
+    <string name="grant_storage_hint">Vous avez besoin d\'attribuer des permissions à QPython</string>
+    <string name="lost_google_hint">Imposssible de se connecter au serveur de Google, veuillez vérifier votre connexion internet</string>
+    <string name="upload_suc">Le téléchargement du code a réussi.</string>
+    <string name="upload_fail">Le code n\'a pas pu être téléchargé.</string>
+    <string name="my_program">Mon Programme</string>
+    <string name="nothing_here_yet">Il n\'y a rien ici encore. :(</string>
+    <string name="sofa_hint">Voulez-vous être le premier à commenter?</string>
+    <string name="null_comment_hint">Contenu du commentaire nul…</string>
+    <string name="initial">Initial</string>
+    <string name="share_empty_hint">Vous devez enregistrer le fichier avant de le partager.</string>
+    <string name="need_login">Veuillez vous connecter</string>
+    <string name="upload_login_hint">Vous devez vous connecter avant de pouvoir télécharger votre code</string>
+    <string name="login_now">Connectez-vous maintenant</string>
+    <string name="cloud_empty_hint">Vous n\'avez pas encore de script sur votre cloud</string>
+    <string name="mkdir_fail">Erreur dans la création du répertoire.</string>
+    <string name="not_support_type_hint">Impossible de télécharger ce type de fichier maintenant</string>
+    <string name="conflict_hint"><Data>
+        <![CDATA[ <b>Fichier distant:</b>   <br/>
+    <u>Taille:</u>  %4$s   <br/>
+    <u>Dernière mise à jour:</u> %3$s   <br/><br/>
+    <b>Fichier local:</b><br/>
+    <u>Taille:</u> %2$s<br/>
+    <u>Dernière mise à jour:</u> %1$s <br/><br/>
+    Do you want to override?]]></Data></string>
+    <string name="override_fail_hint">Le processus qui ne tient pas compte a échoué, veuillez réessayer plus tard</string>
+    <string name="delete_remote_suc">Suppression du fichier distant réussi</string>
+    <string name="delete_suc">Suppression du fichier réussi</string>
+    <string name="click_retry">Demande expirée \nCliquez pour recommencer</string>
+    <string name="lout">Se déconnecter?</string>
+    <string name="log_noti">Notification d\'identification</string>
+    <string name="app_noti">Notifications de l\'app</string>
+    <string name="override_hint">Ne pas tenir compte du fichier local?</string>
+    <string name="file_downloaded">Fichier téléchargé</string>
+    <string name="login_error">Erreur d\'authentification</string>
+    <string name="my_space">Mon Espace (%sMb / 10Mb)</string>
+    <string name="my_space_empty">Mon Espace (— Mb / 10Mb)</string>
+    <string name="save_amp_push"><![CDATA[Save & Push]]></string>
+    <string name="shortcut_create_suc">Le raccourci %s a bien été créer</string>
+    <string name="need_grant">Vous avez besoin d\'attribuer des permissions</string>
+    <string name="no_space">Vous ne disposez pas d\'assez d\'espace pour télécharger</string>
+    <string name="no_file">Pas de fichier à l\'interieur de ce dossier</string>
+    <string name="no_recent_file">Vous n\'avez ouvert aucun fichier récemment</string>
+    <string name="cant_open">Ce fichier ne peut pas être ouvert.</string>
+    <string name="toolbar_showing">Structure du projet</string>
+    <string name="toolbar_close">Editeur</string>
+    <string name="not_support_yet">Pas encore supporté</string>
+    <string name="new_file">Nouveau fichier</string>
+    <string name="tools">Outils</string>
+    <string name="aipy_not_install"><![CDATA[Installer <font color="#4BAC07">s\'il vous plaît les paquets de base</font> \n avant d\'installer les paquets AIPY concernés.]]></string>
+    <!--color string-->
+
+    <string name="update_time_hint">Mis à jour: %s</string>
+    <string name="aipy_list_empty_hint">Impossible de trouver AIPy, localiser l\'erreur en suivant les éatpes suivantes.\n
+        1. Assurez-vous que l\'application AIPy est bien installée\n
+        2. Assurez-vous que QPython a l\'autorisation de modifier ou d\'écrire sur vos fichiers\n
+        3. Essayez de rafraîchir en cliquant sur le bouton du coin supérieur droit\n\n
+        Si cela ne marche pas, n\'hésitez pas de nous contacter par Email ou sur github
+    </string>
+    <string name="package_installed">Ce paquet est déjà installé</string>
+    <string name="install_suc">Installation réussie</string>
+    <string name="install_fail">L\'installation a échouée, veuillez réessayer plus tard</string>
+    <string name="install_package_fail">L\'installation du paquet a échouée, veuillez réessayer plus tard</string>
+    <string name="aipy_not_release">Installer et executer le setup depuis l\'app AIPy s\il vous plaît</string>
+    <string name="aipy_not_support">AIPy ne supporte pas encore QPY3</string>
+
+    <string name="aipy_lib_hint">Vous pouvez installer ou mettre à jour d\'autres progiciels AIPY ci-dessous</string>
+    <string name="album">Album</string>
+    <string name="last_refresh">Dernier rafraîchissement: %s</string>
+    <string name="data_saver">Enregistreur de données</string>
+    <string name="saver_on">Utilise le cache local</string>
+    <string name="saver_off">Recharge tous le temps</string>
+    <string name="library">Librairie</string>
+    <string name="run">Executer</string>
+
+    <string name="insert_if">if :\n</string>
+    <string name="insert_def">def ():\n</string>
+    <string name="insert_for">for\u0020\u0020in :\n</string>
+    <string name="insert_import">import\u0020\n</string>
+    <string name="insert_import_f">from\u0020\u0020import\u0020\n</string>
+    <string name="insert_clz">class\u0020\u0020:</string>
+    <string name="insert_ef">elif\u0020\u0020:\n</string>
+    <string name="insert_el">else:\n</string>
+    <string name="insert_ret">return\n</string>
+
+    <string name="file_new">Fichier</string>
+    <string name="install_py3">Installer Python 3</string>
+    <string name="py2_now">Vous êtes en train d\'utiliser Python 2</string>
+    <string name="py3_now">Vous êtes en train d\'utiliser Python 3</string>
+    <string name="switch_py3">Changer pour Python 3</string>
+    <string name="enter_history">Historique</string>
+    <string name="qpy_featured">QPython en vedette</string>
+    <string name="history_emp">L\'historique est vide</string>
+    <string name="no_google">Impossible de se connecter sans les services google</string>
+    <string name="pip_no_net">Impossible d\'ouvrir pip sans connection</string>
+    <string name="key_py3">switch_py3</string>
+    <string name="py3_not_install">Python3 n\'est pas intallé</string>
+    <string name="install_py3_hint">Vous avez besoin d\'installer python3 avant de l\'utiliser</string>
+    <string name="open_app_market">Aller au marché d\'applications(App market)</string>
+    <string name="release_error">Paquets non libérés</string>
+    <string name="open_py3_hint">Veuillez d\'abord libérer les paquets depuis l\'app Python3</string>
+    <string name="open_py3">Ouvrir l\'app Python3</string>
+    <string name="unzip_pac_fail">Le décompressement des paquets a échoué</string>
+    <string name="retry_hint">Réessayer s\'il vous plaît</string>
+    <string name="event_login">IDENTIFICATION</string>
+    <string name="event_me">Ouvre_Moi</string>
+    <string name="event_term">Ouvrir_terminal</string>
+    <string name="event_editor">Ouvrir_éditeur</string>
+    <string name="event_qpypi">Ouvrir_QPYPI</string>
+    <string name="event_commu">Ouvrir_communité</string>
+    <string name="event_setting">Ouvrir_Réglages</string>
+    <string name="event_file">Ouvrir_explorer</string>
+    <string name="event_course">Ouvrir_cours</string>
+    <string name="event_top">Ouvrir_Haut</string>
+    <string name="browser">Navigateur</string>
+    <string name="switch_py3_hint">L\'interpréteur utilise python 2 maintenant, voulez-vous changer avec python 3?</string>
+    <string name="goto_setting">Aller au Réglages</string>
+    <string name="net_lagging">Le net a l\'air de lagger, soyez patient s\'il vous plaît</string>
+</resources>
