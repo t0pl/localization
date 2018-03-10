@@ -8,7 +8,7 @@
 
     <string name="setting">Réglages</string>
     <string name="editor">Editeur</string>
-    <string name="community">Commauté</string>
+    <string name="community">Communauté</string>
 
     <string name="more">Plus</string>
     <string name="qpypi">Librairies</string>
@@ -174,7 +174,7 @@
     <string name="help_url">http://www.qpython.org</string>
 
     <string name="read_only">Lecture seulement</string>
-    <string name="file">Explorateur</string>
+    <string name="file">Exploreur</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="ok">OK</string>
